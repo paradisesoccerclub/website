@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+ * Navigation
+ *------------------------------------------------------------------*/
+
+nav {
+	padding: $unit-sm $unit-md;
+	margin: 0 auto;
+	font-family: $type-rubik;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+
+	ul {
+		list-style-type:none;
+    	margin:0;
+    	padding:0;
+    	display: none;
+    	@media all and (min-width: 500px) {
+			display: inline-block;
+  		}
+	}
+	li {
+		display: inline-block;
+		padding-right: $unit-xsm;
+		&:last-of-type {
+			padding-right: 0;
+		}
+	}
+}
+
+.nav-logo {
+	max-width: 60px;
+}
+
+.nav-menu {
+	@media all and (min-width: 500px) {
+			display: none;
+  		}
+}
+.nav-link {
+	text-decoration: none;
+	color: $coal;
+	font-weight: 500;
+}
+.nav-container {
+	background: rgba(255,255,255,0.90);
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,0.20);
+}
