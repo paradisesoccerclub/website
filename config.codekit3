@@ -7,7 +7,7 @@
 		"uuidString": "E13B952A-3FCE-4203-B797-31D1B5DB9F93"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/assets\/menu.svg": {
 		"ft": 2097152,
@@ -38,6 +38,103 @@
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 10452,
+		"oA": 0,
+		"oAP": "\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 15238,
+		"oA": 0,
+		"oAP": "\/favicon\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6463,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1002,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1650,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 6669,
+		"oA": 0,
+		"oAP": "\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/favicon\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/site.webmanifest",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -151,7 +248,8 @@
 	"creationDate": 544901923,
 	"displayValue": "paradisesoccerclub",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-kanye"
+	"iconImageName": "\/favicon\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1954,6 +2052,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

@@ -10,22 +10,29 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	max-width: 1200px;
+	overflow: hidden;
 
 	ul {
 		list-style-type:none;
     	margin:0;
     	padding:0;
-    	display: none;
+    	transform: translateX(120%);
+    	position: absolute;
+    	right: 0;
     	@media all and (min-width: 500px) {
-			display: inline-block;
+			transform: translateX(0);
+			position: relative;
   		}
 	}
 	li {
+		margin-bottom: $unit-sm;
+		@media all and (min-width: 500px) {
 		display: inline-block;
 		padding-right: $unit-xsm;
-		&:last-of-type {
-			padding-right: 0;
+		margin-bottom: 0;
+			&:last-of-type {
+				padding-right: 0;
+			}
 		}
 	}
 }
@@ -35,6 +42,7 @@ nav {
 }
 
 .nav-menu {
+	cursor: pointer;
 	@media all and (min-width: 500px) {
 			display: none;
   		}
@@ -46,5 +54,13 @@ nav {
 }
 .nav-container {
 	background: rgba(255,255,255,0.90);
-	box-shadow: 0 1px 10px 0 rgba(0,0,0,0.20);
+	// box-shadow: 0 1px 10px 0 rgba(0,0,0,0.20);
 }
+
+.is-visible {
+    transform: translate(-180%, 40%);
+    @media all and (min-width: 500px) {
+			transform: none;
+  		} 
+}
+
