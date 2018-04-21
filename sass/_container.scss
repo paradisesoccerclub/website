@@ -1,11 +1,7 @@
 /*--------------------------------------------------------------------
- * Paradise Soccer Club
+ * Container
  *------------------------------------------------------------------*/
 
-@import "_normalize";
-@import "_settings";
-@import "_grid";
-@import "_navigation";
-@import "_container";
-
-
+.wrapper {
+	max-width: 1200px;
+}

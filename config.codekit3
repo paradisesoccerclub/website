@@ -7,8 +7,28 @@
 		"uuidString": "E13B952A-3FCE-4203-B797-31D1B5DB9F93"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
+	"\/assets\/menu.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/psc-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/psc-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +38,103 @@
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 10452,
+		"oA": 0,
+		"oAP": "\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 15238,
+		"oA": 0,
+		"oAP": "\/favicon\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6463,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1002,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1650,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 6669,
+		"oA": 0,
+		"oAP": "\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/favicon\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/site.webmanifest",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -44,6 +161,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/sass\/_container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_container.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -53,6 +183,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -105,7 +248,8 @@
 	"creationDate": 544901923,
 	"displayValue": "paradisesoccerclub",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-kanye"
+	"iconImageName": "\/favicon\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1908,6 +2052,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
