@@ -242,6 +242,102 @@ textarea {
  * Settings
  *------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
+ * Typography
+ *------------------------------------------------------------------*/
+.type-white {
+  color: #FFFFFF; }
+
+.type-coal {
+  color: #1D1E22; }
+
+.type-gold {
+  color: #B88400; }
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px; }
+  @media all and (min-width: 500px) {
+    h2 {
+      font-size: 32px; } }
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500; }
+
+/*--------------------------------------------------------------------
+ * Navigation
+ *------------------------------------------------------------------*/
+nav {
+  padding: 16px 24px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transform: translateX(120%);
+    position: absolute;
+    right: 0; }
+    @media all and (min-width: 500px) {
+      nav ul {
+        transform: translateX(0);
+        position: relative; } }
+  nav li {
+    margin-bottom: 16px; }
+    @media all and (min-width: 500px) {
+      nav li {
+        display: inline-block;
+        padding-right: 8px;
+        margin-bottom: 0; }
+        nav li:last-of-type {
+          padding-right: 0; } }
+
+.nav-logo {
+  max-width: 60px; }
+
+.nav-menu {
+  cursor: pointer;
+  max-width: 24px; }
+  @media all and (min-width: 500px) {
+    .nav-menu {
+      display: none; } }
+
+.nav-link {
+  text-decoration: none;
+  color: #1D1E22;
+  font-weight: 500; }
+
+.nav-container {
+  background: rgba(255, 255, 255, 0.9); }
+
+.is-visible {
+  transform: translate(-180%, 40%); }
+  @media all and (min-width: 500px) {
+    .is-visible {
+      transform: none; } }
+
+/*--------------------------------------------------------------------
+ * Container
+ *------------------------------------------------------------------*/
+.wrapper-md {
+  max-width: 1200px; }
+
+.wrapper-lg {
+  max-width: 1440px; }
+
+.wrapper-center {
+  margin: 0 auto; }
+
+/*--------------------------------------------------------------------
  * Grid
  *------------------------------------------------------------------*/
 /*! Flex Grid Lite | MIT License | https://github.com/elliotdahl/flex-grid-lite */
@@ -473,63 +569,85 @@ textarea {
     max-width: 100%; } }
 
 /*--------------------------------------------------------------------
- * Navigation
+ * Content
  *------------------------------------------------------------------*/
-nav {
-  padding: 16px 24px;
-  margin: 0 auto;
-  font-family: "Rubik", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden; }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    transform: translateX(120%);
-    position: absolute;
-    right: 0; }
-    @media all and (min-width: 500px) {
-      nav ul {
-        transform: translateX(0);
-        position: relative; } }
-  nav li {
-    margin-bottom: 16px; }
-    @media all and (min-width: 500px) {
-      nav li {
-        display: inline-block;
-        padding-right: 8px;
-        margin-bottom: 0; }
-        nav li:last-of-type {
-          padding-right: 0; } }
+img {
+  width: 100%; }
 
-.nav-logo {
-  max-width: 60px; }
+.bg-gold {
+  background-color: #B88400; }
 
-.nav-menu {
-  cursor: pointer; }
+.bg-smoke {
+  background-color: #7B7E85; }
+
+.bg-fog {
+  background-color: #F2F2F2; }
+
+.bg-cloud {
+  background-color: #EBEBEB; }
+
+.bg-ruby {
+  background-color: #BE2126; }
+
+@media all and (min-width: 500px) {
+  .hero {
+    display: flex; } }
+
+@media all and (min-width: 500px) {
+  .hero div {
+    flex: 1; } }
+
+.hero-text {
+  padding: 24px; }
   @media all and (min-width: 500px) {
-    .nav-menu {
-      display: none; } }
+    .hero-text {
+      padding: 32px; } }
 
-.nav-link {
-  text-decoration: none;
+.hero-img {
+  background: url(../img/products/adidas/blackout-4-21.png);
+  background-size: cover;
+  min-height: 200px; }
+  @media all and (min-width: 500px) {
+    .hero-img {
+      min-height: 400px; } }
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
   color: #1D1E22;
+  font-family: "Rubik", sans-serif; }
+
+.item-attr {
   font-weight: 500; }
 
-.nav-container {
-  background: rgba(255, 255, 255, 0.9); }
-
-.is-visible {
-  transform: translate(-180%, 40%); }
-  @media all and (min-width: 500px) {
-    .is-visible {
-      transform: none; } }
+.item-desc {
+  font-family: "Rubik", sans-serif;
+  color: #7B7E85; }
 
 /*--------------------------------------------------------------------
- * Container
+ * Utility
  *------------------------------------------------------------------*/
-.wrapper {
-  max-width: 1200px; }
+.padding-md {
+  padding: 24px; }
+
+.padding-lg {
+  padding: 32px; }
+
+/*--------------------------------------------------------------------
+ * Button
+ *------------------------------------------------------------------*/
+button {
+  font-family: "Rubik", sans-serif;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.btn-gold {
+  background-color: #B88400;
+  color: white; }
+
+.btn-white {
+  background-color: #FFFFFF;
+  color: #B88400; }

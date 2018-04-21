@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+ * Content
+ *------------------------------------------------------------------*/
+
+img {
+	width: 100%;
+}
+
+
+.bg-gold {
+	background-color: $gold;
+}
+.bg-smoke {
+	background-color: $smoke;
+}
+.bg-fog {
+	background-color: $fog;
+}
+.bg-cloud {
+	background-color: $cloud;
+}
+.bg-ruby {
+	background-color: $ruby;
+}
+
+.hero {
+	@media all and (min-width: $bp-sm) { 
+		display: flex;
+	}
+}
+
+.hero div {
+	@media all and (min-width: $bp-sm) { 
+		flex: 1;
+	}	
+}
+
+.hero-text {
+	padding: $unit-md;
+	@media all and (min-width: $bp-sm) { 
+	padding: $unit-lg;
+	}
+}
+
+.hero-img {
+	background: url(../img/products/adidas/blackout-4-21.png);
+	background-size: cover;
+	min-height: 200px;
+	@media all and (min-width: $bp-sm) {
+		min-height: 400px;
+	}
+	
+}
+
+.item-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: $type-sm;
+	color: $coal;
+	font-family: $type-rubik;
+}
+
+.item-title {
+}
+
+.item-attr {
+	font-weight: $type-bold;
+}
+
+.item-desc {
+	font-family: $type-rubik;
+	color: $smoke;
+}
+
+
+
+
+
+

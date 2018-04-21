@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------------
+ * Typography
+ *------------------------------------------------------------------*/
+.type-white {
+	color: $white;
+}
+.type-coal {
+	color: $coal;
+}
+.type-gold {
+	color: $gold;
+}
+
+h2 {
+	font-family: $type-rubik;
+	font-weight: $type-bold;
+	font-size: $type-md;
+	@media all and (min-width: $bp-sm) { 
+		font-size: $type-lg;
+		
+	}
+}
+
+h3 {
+	font-family: $type-rubik;
+	font-size: $type-sm;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: $type-bold;
+}
+

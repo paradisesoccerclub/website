@@ -19,14 +19,14 @@ nav {
     	transform: translateX(120%);
     	position: absolute;
     	right: 0;
-    	@media all and (min-width: 500px) {
+    	@media all and (min-width: $bp-sm) { 
 			transform: translateX(0);
 			position: relative;
   		}
 	}
 	li {
 		margin-bottom: $unit-sm;
-		@media all and (min-width: 500px) {
+		@media all and (min-width: $bp-sm) { 
 		display: inline-block;
 		padding-right: $unit-xsm;
 		margin-bottom: 0;
@@ -43,14 +43,15 @@ nav {
 
 .nav-menu {
 	cursor: pointer;
-	@media all and (min-width: 500px) {
+	max-width: 24px;
+	@media all and (min-width: $bp-sm) { 
 			display: none;
   		}
 }
 .nav-link {
 	text-decoration: none;
 	color: $coal;
-	font-weight: 500;
+	font-weight: $type-bold;
 }
 .nav-container {
 	background: rgba(255,255,255,0.90);
@@ -59,7 +60,7 @@ nav {
 
 .is-visible {
     transform: translate(-180%, 40%);
-    @media all and (min-width: 500px) {
+    @media all and (min-width: $bp-sm) {
 			transform: none;
   		} 
 }

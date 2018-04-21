@@ -1,15 +1,13 @@
 /*--------------------------------------------------------------------
- * Container
+ * Utility
  *------------------------------------------------------------------*/
 
-.wrapper-md {
-	max-width: 1200px;
-}
+$padding-md:	24px;
+$padding-lg:	32px;
 
-.wrapper-lg {
-	max-width: 1440px;
-}
-
-.wrapper-center {
-	margin: 0 auto;
+.padding-md {
+	padding: $padding-md;
+}	
+.padding-lg {
+	padding: $padding-lg;
 }
