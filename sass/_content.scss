@@ -1,0 +1,151 @@
+/*--------------------------------------------------------------------
+ * Content
+ *------------------------------------------------------------------*/
+
+img {
+	width: 100%;
+}
+
+
+.bg-gold {
+	background-color: $gold;
+}
+.bg-smoke {
+	background-color: $smoke;
+}
+.bg-fog {
+	background-color: $fog;
+}
+.bg-cloud {
+	background-color: $cloud;
+}
+.bg-ruby {
+	background-color: $ruby;
+}
+
+.hero {
+	@media only screen and (min-width: $bp-sm) { 
+		display: flex;
+	}
+}
+
+.hero div {
+	@media only screen and (min-width: $bp-sm) { 
+		flex: 1;
+	}	
+}
+
+.hero-text {
+	padding: $unit-md;
+	@media only screen and (min-width: $bp-sm) { 
+	padding: $unit-lg;
+	}
+}
+
+.hero-img {
+	background: url(../img/products/adidas/blackout-4-21.png);
+	background-size: cover;
+	min-height: 200px;
+	@media only screen and (min-width: $bp-sm) {
+		min-height: 400px;
+	}
+	
+}
+
+.item-grid {
+	margin-left: $unit-xsm;
+	margin-right: $unit-xsm;
+	display: flex;
+	flex-wrap: wrap;
+	@media only screen and (min-width: $bp-md) {
+	margin-left: $unit-sm;
+	margin-right: $unit-sm;
+	}
+}
+
+.item-col {
+	box-sizing: border-box;
+	padding: 0 $unit-xsm 0 $unit-xsm;
+	// max-width: 300px;
+	flex: 0 0 auto;
+	width:50%;
+	@media only screen and (min-width: $bp-sm+100) {
+	width: 33%;	
+	}
+	@media only screen and (min-width: 920px) {
+		width: 25%;
+	}
+}
+
+.item-featured {
+	width: 100%;
+	margin-bottom: $unit-sm;
+	text-align: center;
+	@media only screen and (min-width: $bp-sm+100) {
+		width: 67%;
+	}
+	@media only screen and (min-width: 920px) {
+		width: 50%;
+	}
+}
+
+.item-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: $type-sm;
+	color: $coal;
+	font-family: $type-rubik;
+}
+
+.item-title {
+}
+
+.item-attr {
+	font-weight: $type-bold;
+	margin-left: $unit-xsm;
+}
+
+.item-desc {
+	font-family: $type-rubik;
+	color: $smoke;
+	margin-top: 0;
+}
+
+.info-section {
+	@media only screen and (min-width: $bp-sm+150) {
+	border-top: 1px solid $cloud;
+	}
+}
+
+.info-grid {
+	display: block;
+	@media only screen and (min-width: $bp-sm+150) {
+		display: flex;
+	}
+}
+
+.info-col {
+	padding: $unit-sm;
+	border-bottom: 1px solid $cloud;
+	@media only screen and (min-width: $bp-sm) {
+		padding: $unit-lg;
+	}
+	@media only screen and (min-width: $bp-sm+150) {
+		padding: $unit-xsm*8;
+	}
+	@media only screen and (min-width: $bp-sm+300) {
+		padding: $unit-xsm*10;
+	}
+
+	&:first-of-type {
+		@media only screen and (min-width: $bp-sm+150) {
+			border-right: 1px solid $cloud;
+		}
+	}
+}
+
+
+
+
+
+
