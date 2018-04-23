@@ -255,7 +255,7 @@ textarea {
 
 h2 {
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 24px; }
   @media all and (min-width: 500px) {
     h2 {
@@ -611,6 +611,39 @@ img {
     .hero-img {
       min-height: 400px; } }
 
+.item-grid {
+  margin-left: 8px;
+  margin-right: 8px;
+  display: flex;
+  flex-wrap: wrap; }
+  @media all and (min-width: 1000px) {
+    .item-grid {
+      margin-left: 16px;
+      margin-right: 16px; } }
+
+.item-col {
+  box-sizing: border-box;
+  padding: 0 8px 0 8px;
+  flex: 0 0 auto;
+  width: 50%; }
+  @media all and (min-width: 600px) {
+    .item-col {
+      width: 33%; } }
+  @media all and (min-width: 920px) {
+    .item-col {
+      width: 25%; } }
+
+.item-featured {
+  width: 100%;
+  margin-bottom: 16px;
+  text-align: center; }
+  @media all and (min-width: 600px) {
+    .item-featured {
+      width: 67%; } }
+  @media all and (min-width: 920px) {
+    .item-featured {
+      width: 50%; } }
+
 .item-container {
   display: flex;
   justify-content: space-between;
@@ -619,11 +652,13 @@ img {
   font-family: "Rubik", sans-serif; }
 
 .item-attr {
-  font-weight: 500; }
+  font-weight: 500;
+  margin-left: 8px; }
 
 .item-desc {
   font-family: "Rubik", sans-serif;
-  color: #7B7E85; }
+  color: #7B7E85;
+  margin-top: 0; }
 
 /*--------------------------------------------------------------------
  * Utility
@@ -634,6 +669,9 @@ img {
 .padding-lg {
   padding: 32px; }
 
+/*--------------------------------------------------------------------
+ * Mixins
+ *------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
  * Button
  *------------------------------------------------------------------*/
