@@ -250,6 +250,9 @@ textarea {
 .type-coal {
   color: #1D1E22; }
 
+.type-smoke {
+  color: #7B7E85; }
+
 .type-gold {
   color: #B88400; }
 
@@ -257,7 +260,7 @@ h2 {
   font-family: "Rubik", sans-serif;
   font-weight: 300;
   font-size: 24px; }
-  @media all and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     h2 {
       font-size: 32px; } }
 
@@ -267,6 +270,10 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 500; }
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px; }
 
 /*--------------------------------------------------------------------
  * Navigation
@@ -287,13 +294,13 @@ nav {
     transform: translateX(120%);
     position: absolute;
     right: 0; }
-    @media all and (min-width: 500px) {
+    @media only screen and (min-width: 500px) {
       nav ul {
         transform: translateX(0);
         position: relative; } }
   nav li {
     margin-bottom: 16px; }
-    @media all and (min-width: 500px) {
+    @media only screen and (min-width: 500px) {
       nav li {
         display: inline-block;
         padding-right: 8px;
@@ -307,7 +314,7 @@ nav {
 .nav-menu {
   cursor: pointer;
   max-width: 24px; }
-  @media all and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     .nav-menu {
       display: none; } }
 
@@ -321,7 +328,7 @@ nav {
 
 .is-visible {
   transform: translate(-180%, 40%); }
-  @media all and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     .is-visible {
       transform: none; } }
 
@@ -343,21 +350,9 @@ nav {
 /*! Flex Grid Lite | MIT License | https://github.com/elliotdahl/flex-grid-lite */
 .grid {
   box-sizing: border-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
-  -webkit-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  -webkit-box-flex: 0;
   flex: 0 1 auto;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -8px 0 -8px; }
   .grid.grid-nogutter {
@@ -367,15 +362,8 @@ nav {
 
 .col {
   box-sizing: border-box;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  -webkit-box-flex: 1;
   flex-grow: 1;
-  -ms-flex-preferred-size: 0;
-  -webkit-flex-basis: 0;
   flex-basis: 0;
   max-width: 100%;
   min-width: 0;
@@ -553,7 +541,7 @@ nav {
   flex-basis: 100%;
   max-width: 100%; }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .col-sm {
     flex: 100%;
     max-width: 100%; } }
@@ -589,17 +577,17 @@ img {
 .bg-ruby {
   background-color: #BE2126; }
 
-@media all and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   .hero {
     display: flex; } }
 
-@media all and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
   .hero div {
     flex: 1; } }
 
 .hero-text {
   padding: 24px; }
-  @media all and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     .hero-text {
       padding: 32px; } }
 
@@ -607,7 +595,7 @@ img {
   background: url(../img/products/adidas/blackout-4-21.png);
   background-size: cover;
   min-height: 200px; }
-  @media all and (min-width: 500px) {
+  @media only screen and (min-width: 500px) {
     .hero-img {
       min-height: 400px; } }
 
@@ -616,7 +604,7 @@ img {
   margin-right: 8px;
   display: flex;
   flex-wrap: wrap; }
-  @media all and (min-width: 1000px) {
+  @media only screen and (min-width: 1000px) {
     .item-grid {
       margin-left: 16px;
       margin-right: 16px; } }
@@ -626,10 +614,10 @@ img {
   padding: 0 8px 0 8px;
   flex: 0 0 auto;
   width: 50%; }
-  @media all and (min-width: 600px) {
+  @media only screen and (min-width: 600px) {
     .item-col {
       width: 33%; } }
-  @media all and (min-width: 920px) {
+  @media only screen and (min-width: 920px) {
     .item-col {
       width: 25%; } }
 
@@ -637,10 +625,10 @@ img {
   width: 100%;
   margin-bottom: 16px;
   text-align: center; }
-  @media all and (min-width: 600px) {
+  @media only screen and (min-width: 600px) {
     .item-featured {
       width: 67%; } }
-  @media all and (min-width: 920px) {
+  @media only screen and (min-width: 920px) {
     .item-featured {
       width: 50%; } }
 
@@ -660,14 +648,52 @@ img {
   color: #7B7E85;
   margin-top: 0; }
 
+@media only screen and (min-width: 650px) {
+  .info-section {
+    border-top: 1px solid #EBEBEB; } }
+
+.info-grid {
+  display: block; }
+  @media only screen and (min-width: 650px) {
+    .info-grid {
+      display: flex; } }
+
+.info-col {
+  padding: 16px;
+  border-bottom: 1px solid #EBEBEB; }
+  @media only screen and (min-width: 500px) {
+    .info-col {
+      padding: 32px; } }
+  @media only screen and (min-width: 650px) {
+    .info-col {
+      padding: 64px; } }
+  @media only screen and (min-width: 800px) {
+    .info-col {
+      padding: 80px; } }
+  @media only screen and (min-width: 650px) {
+    .info-col:first-of-type {
+      border-right: 1px solid #EBEBEB; } }
+
 /*--------------------------------------------------------------------
  * Utility
  *------------------------------------------------------------------*/
-.padding-md {
-  padding: 24px; }
+.section-margin-top {
+  margin-top: 32px; }
+  @media only screen and (min-width: 500px) {
+    .section-margin-top {
+      margin-top: 40px; } }
+  @media only screen and (min-width: 1000px) {
+    .section-margin-top {
+      margin-top: 80px; } }
 
-.padding-lg {
-  padding: 32px; }
+.section-margin-bottom {
+  margin-bottom: 32px; }
+  @media only screen and (min-width: 500px) {
+    .section-margin-bottom {
+      margin-bottom: 40px; } }
+  @media only screen and (min-width: 1000px) {
+    .section-margin-bottom {
+      margin-bottom: 80px; } }
 
 /*--------------------------------------------------------------------
  * Mixins

@@ -24,20 +24,20 @@ img {
 }
 
 .hero {
-	@media all and (min-width: $bp-sm) { 
+	@media only screen and (min-width: $bp-sm) { 
 		display: flex;
 	}
 }
 
 .hero div {
-	@media all and (min-width: $bp-sm) { 
+	@media only screen and (min-width: $bp-sm) { 
 		flex: 1;
 	}	
 }
 
 .hero-text {
 	padding: $unit-md;
-	@media all and (min-width: $bp-sm) { 
+	@media only screen and (min-width: $bp-sm) { 
 	padding: $unit-lg;
 	}
 }
@@ -46,7 +46,7 @@ img {
 	background: url(../img/products/adidas/blackout-4-21.png);
 	background-size: cover;
 	min-height: 200px;
-	@media all and (min-width: $bp-sm) {
+	@media only screen and (min-width: $bp-sm) {
 		min-height: 400px;
 	}
 	
@@ -57,7 +57,7 @@ img {
 	margin-right: $unit-xsm;
 	display: flex;
 	flex-wrap: wrap;
-	@media all and (min-width: $bp-sm*2) {
+	@media only screen and (min-width: $bp-md) {
 	margin-left: $unit-sm;
 	margin-right: $unit-sm;
 	}
@@ -69,10 +69,10 @@ img {
 	// max-width: 300px;
 	flex: 0 0 auto;
 	width:50%;
-	@media all and (min-width: $bp-sm+100) {
+	@media only screen and (min-width: $bp-sm+100) {
 	width: 33%;	
 	}
-	@media all and (min-width: 920px) {
+	@media only screen and (min-width: 920px) {
 		width: 25%;
 	}
 }
@@ -81,10 +81,10 @@ img {
 	width: 100%;
 	margin-bottom: $unit-sm;
 	text-align: center;
-	@media all and (min-width: $bp-sm+100) {
+	@media only screen and (min-width: $bp-sm+100) {
 		width: 67%;
 	}
-	@media all and (min-width: 920px) {
+	@media only screen and (min-width: 920px) {
 		width: 50%;
 	}
 }
@@ -109,6 +109,39 @@ img {
 	font-family: $type-rubik;
 	color: $smoke;
 	margin-top: 0;
+}
+
+.info-section {
+	@media only screen and (min-width: $bp-sm+150) {
+	border-top: 1px solid $cloud;
+	}
+}
+
+.info-grid {
+	display: block;
+	@media only screen and (min-width: $bp-sm+150) {
+		display: flex;
+	}
+}
+
+.info-col {
+	padding: $unit-sm;
+	border-bottom: 1px solid $cloud;
+	@media only screen and (min-width: $bp-sm) {
+		padding: $unit-lg;
+	}
+	@media only screen and (min-width: $bp-sm+150) {
+		padding: $unit-xsm*8;
+	}
+	@media only screen and (min-width: $bp-sm+300) {
+		padding: $unit-xsm*10;
+	}
+
+	&:first-of-type {
+		@media only screen and (min-width: $bp-sm+150) {
+			border-right: 1px solid $cloud;
+		}
+	}
 }
 
 
