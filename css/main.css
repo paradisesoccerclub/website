@@ -649,7 +649,7 @@ img {
   margin-top: 0; }
 
 @media only screen and (min-width: 650px) {
-  .info-section {
+  .section-border-top {
     border-top: 1px solid #EBEBEB; } }
 
 .info-grid {
@@ -673,6 +673,25 @@ img {
   @media only screen and (min-width: 650px) {
     .info-col:first-of-type {
       border-right: 1px solid #EBEBEB; } }
+
+.grid-featured-product {
+  margin-left: 8px;
+  margin-right: 8px; }
+  @media only screen and (min-width: 500px) {
+    .grid-featured-product {
+      justify-content: space-evenly; } }
+  @media only screen and (min-width: 1000px) {
+    .grid-featured-product {
+      margin-left: 16px;
+      margin-right: 16px; } }
+  @media only screen and (min-width: 600px) {
+    .grid-featured-product .item-col {
+      margin-top: -150px; } }
+  .grid-featured-product .col {
+    display: none; }
+    @media only screen and (min-width: 600px) {
+      .grid-featured-product .col {
+        display: block; } }
 
 /*--------------------------------------------------------------------
  * Utility
