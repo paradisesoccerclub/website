@@ -443,17 +443,14 @@ nav {
   .col-sm {
     flex: 100%;
     max-width: 100%; } }
-
 @media only screen and (max-width: 624px) {
   .col-md {
     flex: 100%;
     max-width: 100%; } }
-
 @media only screen and (max-width: 744px) {
   .col-lg {
     flex: 100%;
     max-width: 100%; } }
-
 /*--------------------------------------------------------------------
  * Content
  *------------------------------------------------------------------*/
@@ -644,7 +641,8 @@ button {
   padding: 8px 16px;
   border: 0;
   border-radius: 3px;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none; }
 
 .btn-gold {
   background-color: #B88400;

@@ -157,6 +157,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/products\/pow-wow\/2017\/pow-wow-black-product.png": {
+		"ft": 32768,
+		"iS": 229879,
+		"oA": 0,
+		"oAP": "\/img\/products\/pow-wow\/2017\/pow-wow-black-product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/products\/pow-wow\/2017\/pow-wow-black.png": {
+		"ft": 32768,
+		"iS": 2534953,
+		"oA": 0,
+		"oAP": "\/img\/products\/pow-wow\/2017\/pow-wow-black.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/products\/pow-wow\/2017\/pow-wow-white-product.png": {
+		"ft": 32768,
+		"iS": 875943,
+		"oA": 0,
+		"oAP": "\/img\/products\/pow-wow\/2017\/pow-wow-white-product.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/products\/pow-wow\/2017\/pow-wow-white.png": {
+		"ft": 32768,
+		"iS": 2874990,
+		"oA": 0,
+		"oAP": "\/img\/products\/pow-wow\/2017\/pow-wow-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -323,7 +367,7 @@
 		"oAP": "\/css\/main.css",
 		"oF": 2,
 		"oS": 0,
-		"uL": 1
+		"uL": 0
 		}
 	},
 "hooks": [
