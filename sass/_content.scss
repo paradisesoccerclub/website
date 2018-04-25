@@ -66,11 +66,10 @@ img {
 .item-col {
 	box-sizing: border-box;
 	padding: 0 $unit-xsm 0 $unit-xsm;
-	// max-width: 300px;
 	flex: 0 0 auto;
-	width:50%;
+	width: 50%;
 	@media only screen and (min-width: $bp-sm+100) {
-	width: 33%;	
+		width: 33%;	
 	}
 	@media only screen and (min-width: 920px) {
 		width: 25%;
@@ -95,10 +94,7 @@ img {
 	font-size: $type-sm;
 	color: $coal;
 	font-family: $type-rubik;
-}
-
-.item-title {
-}
+}	
 
 .item-attr {
 	font-weight: $type-bold;
@@ -165,6 +161,33 @@ img {
 		display: none;
 		@media only screen and (min-width: $bp-sm+100) {
 			display: block;
+		}
+	}
+}
+
+.item-link {
+	position: relative;
+	&:hover {
+		button {
+			display: block;
+		}
+	}
+	button {
+		display: none;
+		border-radius: 0;
+		width:100%;
+		position: absolute;
+		bottom: $unit-xsm/2;
+		&:after {
+			content: url(../assets/square-16.svg);
+			display: inline-block;
+			width: $unit-sm;
+			height: $unit-sm;
+			margin-left: $unit-xsm;
+			vertical-align: middle;
+		}
+		@media only screen and (min-width: $bp-sm) {
+			padding: $unit-sm;
 		}
 	}
 }
