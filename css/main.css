@@ -463,6 +463,9 @@ img {
 .bg-smoke {
   background-color: #7B7E85; }
 
+.bg-coal {
+  background-color: #1D1E22; }
+
 .bg-fog {
   background-color: #F2F2F2; }
 
@@ -558,7 +561,8 @@ img {
   border-bottom: 1px solid #EBEBEB; }
   @media only screen and (min-width: 500px) {
     .info-col {
-      padding: 32px; } }
+      padding: 32px;
+      border-bottom: none; } }
   @media only screen and (min-width: 650px) {
     .info-col {
       padding: 64px; } }
@@ -574,7 +578,7 @@ img {
   margin-right: 8px; }
   @media only screen and (min-width: 500px) {
     .grid-featured-product {
-      justify-content: space-evenly; } }
+      justify-content: space-around; } }
   @media only screen and (min-width: 1000px) {
     .grid-featured-product {
       margin-left: 16px;
@@ -590,24 +594,64 @@ img {
 
 .item-link {
   position: relative; }
-  .item-link:hover button {
-    display: block; }
-  .item-link button {
-    display: none;
-    border-radius: 0;
-    width: 100%;
+  .item-link .btn {
     position: absolute;
-    bottom: 4px; }
-    .item-link button:after {
+    bottom: 4px;
+    opacity: 0;
+    border-radius: 0;
+    transition: opacity 0.25s ease;
+    padding: 16px; }
+    .item-link .btn:after {
       content: url(../assets/square-16.svg);
       display: inline-block;
       width: 16px;
       height: 16px;
       margin-left: 8px;
       vertical-align: middle; }
-    @media only screen and (min-width: 500px) {
-      .item-link button {
-        padding: 16px; } }
+
+.item-link:hover .btn {
+  opacity: 1; }
+
+footer {
+  padding: 24px;
+  background-color: #1D1E22; }
+  @media only screen and (min-width: 800px) {
+    footer {
+      padding: 64px; } }
+  footer h3, footer ul, footer li {
+    color: #FFFFFF; }
+  footer ul {
+    list-style-type: none;
+    margin-bottom: 32px;
+    padding: 0; }
+    @media only screen and (min-width: 600px) {
+      footer ul {
+        margin: 0; } }
+  footer li {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px; }
+
+@media only screen and (min-width: 600px) {
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
+
+.email-label {
+  color: #FFFFFF;
+  font-family: "Rubik", sans-serif; }
+
+.mc-field-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.mc-field-group label, .mc-field-group input {
+  margin-bottom: 16px; }
+
+.mc-field-group input {
+  max-width: 300px; }
 
 /*--------------------------------------------------------------------
  * Utility
@@ -636,7 +680,7 @@ img {
 /*--------------------------------------------------------------------
  * Button
  *------------------------------------------------------------------*/
-button {
+.btn {
   font-family: "Rubik", sans-serif;
   padding: 8px 16px;
   border: 0;
