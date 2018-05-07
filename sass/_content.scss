@@ -41,6 +41,7 @@ img {
 
 .hero-text {
 	padding: $unit-md $unit-md $unit-xlg $unit-md;
+	margin-right: $unit-md;
 	@media only screen and (min-width: $bp-sm) { 
 	padding-left: 8%;
 	}
@@ -55,6 +56,10 @@ img {
 }
 
 .hero-img-about {
+	background: url(https://placehold.it/800x400);
+}
+
+.hero-img-teams {
 	background: url(https://placehold.it/800x400);
 }
 
