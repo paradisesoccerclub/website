@@ -16,11 +16,11 @@ nav {
 		list-style-type:none;
     	margin:0;
     	padding:0;
-    	transform: translateX(120%);
+    	transform: translateY(-100%);
     	position: absolute;
     	right: 0;
     	@media only screen and (min-width: $bp-sm) { 
-			transform: translateX(0);
+    		transform: translateY(0);
 			position: relative;
   		}
 	}
@@ -44,6 +44,7 @@ nav {
 .nav-menu {
 	cursor: pointer;
 	max-width: 24px;
+	z-index: $z-2;
 	@media only screen and (min-width: $bp-sm) { 
 			display: none;
   		}
@@ -58,9 +59,18 @@ nav {
 }
 
 .is-visible {
-    transform: translate(-180%, 40%);
+    transform: translate(0, 45%);
+    background: white;
+    padding: 24px;
+    height: 100%;
+    z-index: $z-1;
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     @media only screen and (min-width: $bp-sm) {
 			transform: none;
+			background: none;;
+		    padding: 0;
+		    height: auto;
   		} 
 }
 

@@ -108,6 +108,10 @@ $screen-lg: 744px;
     justify-content: space-around;
 }
 
+.grid-align-center {
+    align-items: center;
+}
+
 .grid-between {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;

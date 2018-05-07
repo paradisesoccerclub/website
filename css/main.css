@@ -291,12 +291,12 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    transform: translateX(120%);
+    transform: translateY(-100%);
     position: absolute;
     right: 0; }
     @media only screen and (min-width: 500px) {
       nav ul {
-        transform: translateX(0);
+        transform: translateY(0);
         position: relative; } }
   nav li {
     margin-bottom: 16px; }
@@ -313,7 +313,8 @@ nav {
 
 .nav-menu {
   cursor: pointer;
-  max-width: 24px; }
+  max-width: 24px;
+  z-index: 200; }
   @media only screen and (min-width: 500px) {
     .nav-menu {
       display: none; } }
@@ -327,10 +328,19 @@ nav {
   background: rgba(255, 255, 255, 0.9); }
 
 .is-visible {
-  transform: translate(-180%, 40%); }
+  transform: translate(0, 45%);
+  background: white;
+  padding: 24px;
+  height: 100%;
+  z-index: 100;
+  width: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   @media only screen and (min-width: 500px) {
     .is-visible {
-      transform: none; } }
+      transform: none;
+      background: none;
+      padding: 0;
+      height: auto; } }
 
 /*--------------------------------------------------------------------
  * Container
@@ -415,6 +425,9 @@ nav {
 .grid-around {
   justify-content: space-around; }
 
+.grid-align-center {
+  align-items: center; }
+
 .grid-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -443,14 +456,17 @@ nav {
   .col-sm {
     flex: 100%;
     max-width: 100%; } }
+
 @media only screen and (max-width: 624px) {
   .col-md {
     flex: 100%;
     max-width: 100%; } }
+
 @media only screen and (max-width: 744px) {
   .col-lg {
     flex: 100%;
     max-width: 100%; } }
+
 /*--------------------------------------------------------------------
  * Content
  *------------------------------------------------------------------*/
