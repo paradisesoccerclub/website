@@ -46,18 +46,26 @@ img {
 	}
 }
 
-.hero-img {
-	background: url(../img/products/adidas/blackout-4-21.png);
-	background-size: cover;
-	min-height: 200px;
-	@media only screen and (min-width: $bp-sm) {
-		min-height: 400px;
-	}
-	
+.hero-img-home {
+	background: url(https://placehold.it/800x400);
 }
 
 .hero-img-events {
 	background: url(https://placehold.it/800x400);
+}
+
+.hero-img-about {
+	background: url(https://placehold.it/800x400);
+}
+
+.hero-img {
+	background-size: cover;
+	min-height: 200px;
+	background-position: center top;
+	@media only screen and (min-width: $bp-sm) {
+		min-height: 400px;
+	}
+	
 }
 
 .item-grid {
@@ -73,7 +81,7 @@ img {
 
 .item-col {
 	box-sizing: border-box;
-	padding: 0 $unit-xsm 0 $unit-xsm;
+	padding: 0 $unit-xsm $unit-xsm $unit-xsm;
 	flex: 0 0 auto;
 	width: 50%;
 	@media only screen and (min-width: $bp-sm+100) {
@@ -136,7 +144,7 @@ img {
 }
 
 .info-col {
-	padding: $unit-sm;
+	padding: $unit-md $unit-md $unit-xlg $unit-md;
 	border-bottom: 1px solid $cloud;
 	@media only screen and (min-width: $bp-sm) {
 		padding: $unit-lg;
@@ -236,6 +244,20 @@ img {
 
 .rule-cloud {
 	border: 1px solid $cloud;
+}
+
+.about-intro {
+	padding-left: $unit-md;
+	padding-right: $unit-md;
+}
+
+.press-grid {
+	padding-left: $unit-md;
+	padding-right: $unit-md;
+}
+
+.press-icon {
+	max-width: $unit-md;
 }
 
 footer {

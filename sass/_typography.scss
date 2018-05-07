@@ -13,6 +13,12 @@
 .type-gold {
 	color: $gold;
 }
+.type-bold {
+	font-weight: $type-bold;
+}
+.type-center {
+	text-align: center;
+}
 
 h2 {
 	font-family: $type-rubik;

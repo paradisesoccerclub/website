@@ -256,6 +256,12 @@ textarea {
 .type-gold {
   color: #B88400; }
 
+.type-bold {
+  font-weight: 500; }
+
+.type-center {
+  text-align: center; }
+
 h2 {
   font-family: "Rubik", sans-serif;
   font-weight: 300;
@@ -345,6 +351,9 @@ nav {
 /*--------------------------------------------------------------------
  * Container
  *------------------------------------------------------------------*/
+.wrapper-sm {
+  max-width: 500px; }
+
 .wrapper-md {
   max-width: 1200px; }
 
@@ -369,6 +378,9 @@ nav {
     margin: 0; }
     .grid.grid-nogutter > .col {
       padding: 0; }
+
+.grid-margin-bottom {
+  margin-bottom: 8px; }
 
 .col {
   box-sizing: border-box;
@@ -506,16 +518,22 @@ img {
     .hero-text {
       padding-left: 8%; } }
 
-.hero-img {
-  background: url(../img/products/adidas/blackout-4-21.png);
-  background-size: cover;
-  min-height: 200px; }
-  @media only screen and (min-width: 500px) {
-    .hero-img {
-      min-height: 400px; } }
+.hero-img-home {
+  background: url(https://placehold.it/800x400); }
 
 .hero-img-events {
   background: url(https://placehold.it/800x400); }
+
+.hero-img-about {
+  background: url(https://placehold.it/800x400); }
+
+.hero-img {
+  background-size: cover;
+  min-height: 200px;
+  background-position: center top; }
+  @media only screen and (min-width: 500px) {
+    .hero-img {
+      min-height: 400px; } }
 
 .item-grid {
   margin-left: 8px;
@@ -529,7 +547,7 @@ img {
 
 .item-col {
   box-sizing: border-box;
-  padding: 0 8px 0 8px;
+  padding: 0 8px 8px 8px;
   flex: 0 0 auto;
   width: 50%; }
   @media only screen and (min-width: 600px) {
@@ -583,7 +601,7 @@ img {
       display: flex; } }
 
 .info-col {
-  padding: 16px;
+  padding: 24px 24px 40px 24px;
   border-bottom: 1px solid #EBEBEB; }
   @media only screen and (min-width: 500px) {
     .info-col {
@@ -662,6 +680,17 @@ img {
 .rule-cloud {
   border: 1px solid #EBEBEB; }
 
+.about-intro {
+  padding-left: 24px;
+  padding-right: 24px; }
+
+.press-grid {
+  padding-left: 24px;
+  padding-right: 24px; }
+
+.press-icon {
+  max-width: 24px; }
+
 footer {
   padding: 24px;
   background-color: #1D1E22; }
@@ -723,6 +752,24 @@ footer {
   @media only screen and (min-width: 1000px) {
     .section-margin-bottom {
       margin-bottom: 80px; } }
+
+.section-padding-top {
+  padding-top: 32px; }
+  @media only screen and (min-width: 500px) {
+    .section-padding-top {
+      padding-top: 40px; } }
+  @media only screen and (min-width: 1000px) {
+    .section-padding-top {
+      padding-top: 80px; } }
+
+.section-padding-bottom {
+  padding-bottom: 32px; }
+  @media only screen and (min-width: 500px) {
+    .section-padding-bottom {
+      padding-bottom: 40px; } }
+  @media only screen and (min-width: 1000px) {
+    .section-padding-bottom {
+      padding-bottom: 80px; } }
 
 /*--------------------------------------------------------------------
  * Mixins
