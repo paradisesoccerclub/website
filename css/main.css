@@ -493,17 +493,18 @@ img {
 
 @media only screen and (min-width: 500px) {
   .hero {
-    display: flex; } }
+    display: flex;
+    align-items: center; } }
 
 @media only screen and (min-width: 500px) {
   .hero div {
     flex: 1; } }
 
 .hero-text {
-  padding: 24px; }
+  padding: 24px 24px 40px 24px; }
   @media only screen and (min-width: 500px) {
     .hero-text {
-      padding: 32px; } }
+      padding-left: 8%; } }
 
 .hero-img {
   background: url(../img/products/adidas/blackout-4-21.png);
@@ -512,6 +513,9 @@ img {
   @media only screen and (min-width: 500px) {
     .hero-img {
       min-height: 400px; } }
+
+.hero-img-events {
+  background: url(https://placehold.it/800x400); }
 
 .item-grid {
   margin-left: 8px;
@@ -545,6 +549,12 @@ img {
   @media only screen and (min-width: 920px) {
     .item-featured {
       width: 50%; } }
+
+.item-featured-desc {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5; }
 
 .item-container {
   display: flex;
@@ -627,6 +637,30 @@ img {
 
 .item-link:hover .btn {
   opacity: 1; }
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  color: #7B7E85;
+  font-size: 16px; }
+  .event-list li {
+    padding-bottom: 8px; }
+
+.event-list-desc {
+  margin-right: 32px; }
+
+.event-title {
+  color: #1D1E22;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500; }
+
+.event-table {
+  border-collapse: collapse; }
+
+.rule-cloud {
+  border: 1px solid #EBEBEB; }
 
 footer {
   padding: 24px;
