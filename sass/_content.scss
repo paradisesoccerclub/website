@@ -29,6 +29,7 @@ img {
 .hero {
 	@media only screen and (min-width: $bp-sm) { 
 		display: flex;
+		align-items: center;
 	}
 }
 
@@ -39,9 +40,9 @@ img {
 }
 
 .hero-text {
-	padding: $unit-md;
+	padding: $unit-md $unit-md $unit-xlg $unit-md;
 	@media only screen and (min-width: $bp-sm) { 
-	padding: $unit-lg;
+	padding-left: 8%;
 	}
 }
 
@@ -53,6 +54,10 @@ img {
 		min-height: 400px;
 	}
 	
+}
+
+.hero-img-events {
+	background: url(https://placehold.it/800x400);
 }
 
 .item-grid {
@@ -89,6 +94,13 @@ img {
 	@media only screen and (min-width: 920px) {
 		width: 50%;
 	}
+}
+
+.item-featured-desc {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5;
 }
 
 .item-container {
@@ -193,6 +205,37 @@ img {
 	.btn {
 		opacity: 1;
 	}
+}
+
+.event-list {
+	list-style-type:none;
+	padding:0;
+	font-family: $type-rubik;
+	color: $smoke;
+	font-size: $type-sm;
+
+	li {
+		padding-bottom: $unit-xsm;
+	}
+}
+
+.event-list-desc {
+	margin-right: $unit-lg;
+}
+
+.event-title {
+	color: $coal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: $type-bold;
+}
+
+.event-table {
+	border-collapse: collapse; 
+}
+
+.rule-cloud {
+	border: 1px solid $cloud;
 }
 
 footer {
