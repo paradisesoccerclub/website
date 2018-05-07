@@ -513,7 +513,8 @@ img {
     flex: 1; } }
 
 .hero-text {
-  padding: 24px 24px 40px 24px; }
+  padding: 24px 24px 40px 24px;
+  margin-right: 24px; }
   @media only screen and (min-width: 500px) {
     .hero-text {
       padding-left: 8%; } }
@@ -525,6 +526,9 @@ img {
   background: url(https://placehold.it/800x400); }
 
 .hero-img-about {
+  background: url(https://placehold.it/800x400); }
+
+.hero-img-teams {
   background: url(https://placehold.it/800x400); }
 
 .hero-img {

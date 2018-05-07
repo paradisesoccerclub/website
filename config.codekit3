@@ -468,6 +468,13 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/teams.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/teams.html",
+		"oF": 0
 		}
 	},
 "hooks": [
