@@ -20,3 +20,22 @@
 	margin-bottom: $unit-xlg*2;
 	}
 }
+
+.section-padding-top {
+	padding-top: $unit-lg;
+	@media only screen and (min-width: $bp-sm) {
+	padding-top: $unit-xlg;
+	}
+	@media only screen and (min-width: $bp-md) {
+	padding-top: $unit-xlg*2;
+	}
+}
+.section-padding-bottom {
+	padding-bottom: $unit-lg;
+	@media only screen and (min-width: $bp-sm) {
+	padding-bottom: $unit-xlg;	
+	}
+	@media only screen and (min-width: $bp-md) {
+	padding-bottom: $unit-xlg*2;
+	}
+}

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/assets\/menu.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -48,6 +55,13 @@
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/events.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/events.html",
+		"oF": 0
 		},
 	"\/favicon.ico": {
 		"cB": 0,
