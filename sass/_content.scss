@@ -195,6 +195,7 @@ img {
 }
 .item-link {
 	position: relative;
+	text-align: center;
 
 	.btn {
 		position: absolute;
@@ -203,6 +204,7 @@ img {
 		border-radius: 0;
 		transition: opacity 0.25s ease;
 		padding: $unit-sm;
+		width: -webkit-fill-available; // Does not work for Firefox
 		&:after {
 			content: url(../assets/square-16.svg);
 			display: inline-block;
