@@ -391,6 +391,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/_modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -468,6 +481,13 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/store.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/store.html",
+		"oF": 0
 		},
 	"\/teams.html": {
 		"cB": 0,
