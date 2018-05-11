@@ -913,6 +913,7 @@ footer {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
@@ -922,10 +923,6 @@ footer {
     @media only screen and (min-width: 800px) {
       .modal-header img {
         width: auto; } }
-
-.modal-header .close {
-  padding: 1rem;
-  margin: -1rem -1rem -1rem auto; }
 
 .modal-body {
   position: relative;
