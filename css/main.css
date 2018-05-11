@@ -700,6 +700,24 @@ img {
 .press-icon {
   max-width: 24px; }
 
+.player-number {
+  font-size: 24px;
+  color: #1D1E22; }
+  @media only screen and (min-width: 500px) {
+    .player-number {
+      font-size: 32px; } }
+
+.player-name {
+  font-size: 16px;
+  color: #1D1E22; }
+  @media only screen and (min-width: 500px) {
+    .player-name {
+      font-size: 24px; } }
+
+.player-position {
+  color: #7B7E85;
+  font-size: 16px; }
+
 footer {
   padding: 24px;
   background-color: #1D1E22; }
@@ -798,6 +816,10 @@ footer {
   background-color: #B88400;
   color: white; }
 
+.btn-cloud {
+  background-color: #EBEBEB;
+  color: #1D1E22; }
+
 .btn-white {
   background-color: #FFFFFF;
   color: #B88400; }
@@ -895,14 +917,15 @@ footer {
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
+  .modal-header img {
+    width: 50%; }
+    @media only screen and (min-width: 800px) {
+      .modal-header img {
+        width: auto; } }
 
 .modal-header .close {
   padding: 1rem;
   margin: -1rem -1rem -1rem auto; }
-
-.modal-title {
-  margin-bottom: 0;
-  line-height: 1.5; }
 
 .modal-body {
   position: relative;
@@ -939,7 +962,7 @@ footer {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 600px;
     margin: 1.75rem auto; }
   .modal-dialog-centered {
     min-height: calc(100% - (1.75rem * 2)); }
