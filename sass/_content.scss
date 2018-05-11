@@ -267,6 +267,27 @@ img {
 	max-width: $unit-md;
 }
 
+.player-number {
+	font-size: $unit-md;
+	color: $coal;
+	@media only screen and (min-width: $bp-sm) {
+		font-size: $unit-lg;
+	}
+}
+
+.player-name {
+	font-size: $unit-sm;
+	color: $coal;
+	@media only screen and (min-width: $bp-sm) {
+		font-size: $unit-md;
+	}
+}
+
+.player-position {
+	color: $smoke;
+	font-size: $unit-sm;
+}
+
 footer {
 	padding: $unit-md;
 	background-color: $coal;

@@ -1,1 +1,1 @@
-"#menu".click(function(s){s.preventDefault();var e=".nav-items".hasClass("is-visible")?"removeClass":"addClass";".nav-items".removeClass("is-visible"),".nav-items"[e]("is-visible")});
+$(document).ready(function(){$("#menu").click(function(i){i.preventDefault();var s=$(".nav-items").hasClass("is-visible")?"removeClass":"addClass";$(".nav-items").removeClass("is-visible"),$(".nav-items")[s]("is-visible")}),$(window).resize(function(){$(window).width()>400&&$(".nav-items").removeClass("is-visible")})});

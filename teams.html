@@ -13,8 +13,14 @@ $$ |      \$$$$$$  |\$$$$$$  |
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Paradise Soccer Club</title>
-        <meta name="description" content="Lifestyle of Hawaii meets the boots of football">
+        <title>Hawai'i's best and brightest represent PSC | Paradise Soccer Club</title>
+        <meta property="og:title" content="Hawai'i's best and brightest represent PSC | Paradise Soccer Club" />
+        <meta property="description" content="Men's, futsal, and youth teams representing Team Paradise Soccer Club" />
+        <meta property="og:description" content="Men's, futsal, and youth teams representing Team Paradise Soccer Club" />
+        <meta property="og:type" content="product" />
+        <meta property="og:site_name" content="Paradise Soccer Club">
+        <meta property="og:url" content="http://www.paradisesoccerclub.com/teams" />
+        <meta property="og:image" content="assets/og-img.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -24,6 +30,7 @@ $$ |      \$$$$$$  |\$$$$$$  |
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body>
         <div class="nav-container">
@@ -151,7 +158,7 @@ $$ |      \$$$$$$  |\$$$$$$  |
                     <h2>Paradise Soccer Club</h2>
                 </div>
                 <div class='item-col'>
-                    <a class="" href="#">
+                    <a class="" data-toggle="modal" data-target="#LionelMessi">
                         <img src="http://via.placeholder.com/300">
                     </a>
                     <div class="item-container">
@@ -255,81 +262,73 @@ $$ |      \$$$$$$  |\$$$$$$  |
         </section>
 
         <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LionelMessi">
   Launch demo modal
 </button> -->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="LionelMessi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" id="exampleModalLongTitle">Modal title</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <div class="modal-title">
+            <p class="player-number">10</p>
+            <p class="player-name">Lionel Messi</p>
+            <p class="player-position">Forward</p>
+        </div>
+        <img src="http://via.placeholder.com/276">
       </div>
       <div class="modal-body">
-      <div class="">
-                <div class='grid info-grid'>
-                  <div class='col info-col'>
-                    <h2 class="type-coal">Upcoming Games</h2>
-                    <table class="event-table">
+        <table class="event-table">
                       <tr>
                         <td>
-                            <ul class="event-list event-list-desc">
-                                <li>Wed</li>
-                                <li>7:00p</li>
-                            </ul>
+                            <h3 class="event-list-desc">Hometown</h3>
                         </td>
                         <td>
-                            <ul class="event-list">
-                            <li class="event-title">PSC VS KFC</li>
-                            <li>Waipio Soccer Complex</li>
-                        </ul>
+                            <p class="type-smoke">Location</p>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                            <ul class="event-list event-list-desc">
-                                <li>N/A</li>
-                                
-                            </ul>
+                            <h3 class="event-list-desc">Years Played</h3>
                         </td>
                         <td>
-                            <ul class="event-list">
-                            <li class="event-title">Youth Team</li>
-                            <li>No Game</li>
-                        </ul>
+                            <p class="type-smoke">Amount</p>
                         </td>
                       </tr>
                       <tr>
                         <td>
-                            <ul class="event-list event-list-desc">
-                                <li>Fri</li>
-                                <li>10:00a</li>
-                            </ul>
+                            <h3 class="event-list-desc">Goals</h3>
                         </td>
                         <td>
-                            <ul class="event-list">
-                            <li class="event-title">Futsal</li>
-                            <li>Kaneohe Soccer Field</li>
-                        </ul>
+                            <p class="type-smoke">Amount</p>
                         </td>
                       </tr>
-                    </table>                   
-                  </div>
-                
-                </div>
-            </div>
+                      <tr>
+                        <td>
+                            <h3 class="event-list-desc">Past Teams</h3>
+                        </td>
+                        <td>
+                            <p class="type-smoke">Names</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <h3 class="event-list-desc">Favorite Player</h3>
+                        </td>
+                        <td>
+                            <p class="type-smoke">Names</p>
+                        </td>
+                      </tr>
+                    </table>  
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-cloud" data-dismiss="modal" aria-label="Close" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
-
+<!-- End Modal -->
 
         <footer class="section-margin-top">
             <div class="wrapper-md wrapper-center">
@@ -384,19 +383,4 @@ $$ |      \$$$$$$  |\$$$$$$  |
         </footer>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
-    <script type="text/javascript" src="js/script.js"></script>
-      <script type="text/javascript">
-        $("#menu").click(function (e) {
-            e.preventDefault();
-            var func = $(".nav-items").hasClass('is-visible') ? 'removeClass' : 'addClass';
-            $(".nav-items").removeClass("is-visible");
-            $(".nav-items")[func]("is-visible");
-        });
-        $(window).resize(function () {
-            var viewportWidth = $(window).width();
-            if (viewportWidth > 400) {
-                    $(".nav-items").removeClass("is-visible");
-            }
-        });
-      </script>
 </html>
