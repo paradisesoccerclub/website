@@ -523,7 +523,7 @@ img {
       padding-left: 8%; } }
 
 .hero-img-home {
-  background: url(https://placehold.it/800x400); }
+  background: url(../img/products/2017-worldcup/2017-worldcup-hero.png); }
 
 .hero-img-events {
   background: url(https://placehold.it/800x400); }
@@ -570,7 +570,7 @@ img {
   text-align: center; }
   @media only screen and (min-width: 600px) {
     .item-featured {
-      width: 67%; } }
+      width: 68%; } }
   @media only screen and (min-width: 920px) {
     .item-featured {
       width: 50%; } }
@@ -737,6 +737,8 @@ footer {
     font-family: "Rubik", sans-serif;
     font-size: 16px;
     margin-bottom: 8px; }
+    footer li a {
+      color: #FFFFFF; }
 
 @media only screen and (min-width: 600px) {
   .footer-row {
@@ -747,6 +749,11 @@ footer {
 .email-label {
   color: #FFFFFF;
   font-family: "Rubik", sans-serif; }
+
+.email-input {
+  font-family: "Rubik", sans-serif;
+  padding: 8px;
+  border-radius: 3px; }
 
 .mc-field-group {
   display: flex;
