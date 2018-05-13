@@ -39,6 +39,22 @@ nav {
 
 .nav-logo {
 	max-width: 60px;
+	margin-right: $unit-sm;
+}
+.nav-title {
+		font-size: $unit-sm;
+		color: $coal;
+		display: block;
+		text-decoration: none;
+		align-items: center;
+		display: flex;
+		font-weight: $type-bold;
+		&:after {
+			content: 'PSC';
+			@media only screen and (min-width: $bp-sm+300) { 
+				content: 'Paradise Soccer Club';	
+			}
+		}
 }
 
 .nav-menu {
