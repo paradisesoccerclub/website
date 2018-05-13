@@ -160,28 +160,6 @@
 		"oAP": "\/favicon\/site.webmanifest",
 		"oF": 0
 		},
-	"\/img\/products\/2017-adidas\/adidas-category.png": {
-		"ft": 32768,
-		"iS": 854206,
-		"oA": 0,
-		"oAP": "\/img\/products\/2017-adidas\/adidas-category.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/products\/2017-adidas\/blackout-4-21.png": {
-		"ft": 32768,
-		"iS": 1697797,
-		"oA": 0,
-		"oAP": "\/img\/products\/2017-adidas\/blackout-4-21.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/img\/products\/2017-adidas\/blackout-jacket.png": {
 		"ft": 32768,
 		"iS": 1530599,
@@ -217,7 +195,7 @@
 		},
 	"\/img\/products\/2017-pow-wow\/pow-wow-black-product.png": {
 		"ft": 32768,
-		"iS": 229879,
+		"iS": 78480,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-black-product.png",
 		"oF": 0,
@@ -228,7 +206,7 @@
 		},
 	"\/img\/products\/2017-pow-wow\/pow-wow-black.png": {
 		"ft": 32768,
-		"iS": 2534953,
+		"iS": 840555,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-black.png",
 		"oF": 0,
@@ -239,7 +217,7 @@
 		},
 	"\/img\/products\/2017-pow-wow\/pow-wow-white-product.png": {
 		"ft": 32768,
-		"iS": 875943,
+		"iS": 290932,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-white-product.png",
 		"oF": 0,
@@ -250,7 +228,7 @@
 		},
 	"\/img\/products\/2017-pow-wow\/pow-wow-white.png": {
 		"ft": 32768,
-		"iS": 2874990,
+		"iS": 909501,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-white.png",
 		"oF": 0,
@@ -261,7 +239,7 @@
 		},
 	"\/img\/products\/2017-rvca\/hexstop-2-jacket.png": {
 		"ft": 32768,
-		"iS": 1837698,
+		"iS": 559916,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/hexstop-2-jacket.png",
 		"oF": 0,
@@ -272,7 +250,7 @@
 		},
 	"\/img\/products\/2017-rvca\/in-goal-we-trust.png": {
 		"ft": 32768,
-		"iS": 1673411,
+		"iS": 574790,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/in-goal-we-trust.png",
 		"oF": 0,
@@ -283,7 +261,7 @@
 		},
 	"\/img\/products\/2017-rvca\/layers-2-short-gray.png": {
 		"ft": 32768,
-		"iS": 1838973,
+		"iS": 588036,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/layers-2-short-gray.png",
 		"oF": 0,
@@ -294,7 +272,7 @@
 		},
 	"\/img\/products\/2017-rvca\/layers-2-short-red.png": {
 		"ft": 32768,
-		"iS": 1883203,
+		"iS": 546272,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/layers-2-short-red.png",
 		"oF": 0,
@@ -305,7 +283,7 @@
 		},
 	"\/img\/products\/2017-rvca\/mesh-runner.png": {
 		"ft": 32768,
-		"iS": 1601432,
+		"iS": 502415,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/mesh-runner.png",
 		"oF": 0,
@@ -316,7 +294,7 @@
 		},
 	"\/img\/products\/2017-rvca\/spectrum-pant.png": {
 		"ft": 32768,
-		"iS": 1800422,
+		"iS": 553878,
 		"oA": 0,
 		"oAP": "\/img\/products\/2017-rvca\/spectrum-pant.png",
 		"oF": 0,
