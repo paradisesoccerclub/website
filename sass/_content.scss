@@ -101,10 +101,7 @@ img {
 	width: 100%;
 	margin-bottom: $unit-sm;
 	text-align: center;
-	@media only screen and (min-width: $bp-sm+100) {
-		width: 68%;
-	}
-	@media only screen and (min-width: 920px) {
+	@media only screen and (min-width: $bp-sm+200) {
 		width: 50%;
 	}
 }

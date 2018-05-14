@@ -583,10 +583,7 @@ img {
   width: 100%;
   margin-bottom: 16px;
   text-align: center; }
-  @media only screen and (min-width: 600px) {
-    .item-featured {
-      width: 68%; } }
-  @media only screen and (min-width: 920px) {
+  @media only screen and (min-width: 700px) {
     .item-featured {
       width: 50%; } }
 
