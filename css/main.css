@@ -538,13 +538,13 @@ img {
       padding-left: 8%; } }
 
 .hero-img-home {
-  background: url(../img/products/2017-worldcup/2017-worldcup-hero.png); }
+  background: url(../img/products/2018-rvca/grappler-jacket.jpg); }
 
 .hero-img-events {
   background: url(https://placehold.it/800x400); }
 
 .hero-img-about {
-  background: url(https://placehold.it/800x400); }
+  background: url(../img/about/about-hero.jpg); }
 
 .hero-img-teams {
   background: url(https://placehold.it/800x400); }
@@ -583,10 +583,7 @@ img {
   width: 100%;
   margin-bottom: 16px;
   text-align: center; }
-  @media only screen and (min-width: 600px) {
-    .item-featured {
-      width: 68%; } }
-  @media only screen and (min-width: 920px) {
+  @media only screen and (min-width: 700px) {
     .item-featured {
       width: 50%; } }
 
