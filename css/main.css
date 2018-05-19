@@ -521,7 +521,7 @@ img {
 .bg-ruby {
   background-color: #BE2126; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .hero {
     display: flex;
     align-items: center; } }
@@ -550,12 +550,19 @@ img {
   background: url(https://placehold.it/800x400); }
 
 .hero-img {
-  background-size: cover;
-  min-height: 200px;
-  background-position: center top; }
-  @media only screen and (min-width: 500px) {
+  margin-bottom: -8px; }
+  @media only screen and (min-width: 700px) {
     .hero-img {
-      min-height: 400px; } }
+      margin-bottom: -16px;
+      margin-top: 16px;
+      margin-left: -16px;
+      border-radius: 3px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); } }
+  @media only screen and (min-width: 800px) {
+    .hero-img {
+      margin-bottom: -32px;
+      margin-top: 32px;
+      margin-left: -32px; } }
 
 .item-grid {
   margin-left: 8px;
