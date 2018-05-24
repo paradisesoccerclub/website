@@ -27,7 +27,7 @@ img {
 }
 
 .hero {
-	@media only screen and (min-width: $bp-sm) { 
+	@media only screen and (min-width: $bp-sm+200) { 
 		display: flex;
 		align-items: center;
 	}
@@ -63,14 +63,30 @@ img {
 	background: url(https://placehold.it/800x400);
 }
 
+// Hold to test
+// .hero-img {
+// 	background-size: cover;
+// 	min-height: 200px;
+// 	background-position: center top;
+// 	@media only screen and (min-width: $bp-sm) {
+// 		min-height: 400px;
+// 	}
+// }
+
 .hero-img {
-	background-size: cover;
-	min-height: 200px;
-	background-position: center top;
-	@media only screen and (min-width: $bp-sm) {
-		min-height: 400px;
+	margin-bottom: -$unit-xsm;
+	@media only screen and (min-width: $bp-sm+200) {
+	margin-bottom: -$unit-sm;
+	margin-top: $unit-sm;
+	margin-left: -$unit-sm;
+	border-radius: $border-radius;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	}
-	
+	@media only screen and (min-width: $bp-sm+300) {
+	margin-bottom: -$unit-lg;
+	margin-top: $unit-lg;
+	margin-left: -$unit-lg;
+	}
 }
 
 .item-grid {
