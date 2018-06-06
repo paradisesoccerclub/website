@@ -94,3 +94,31 @@ nav {
   		} 
 }
 
+.nav-store {
+	box-sizing: border-box;
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    margin-left: $unit-md;
+    margin-right: $unit-md;
+    text-align: center;
+    a, p {
+    box-sizing: border-box;
+    color: $coal;
+    font-size: $unit-sm;
+    font-family: $type-rubik;
+   	text-align: center;
+   	display: block;
+    // flex-grow: 1;
+    // flex-shrink: 0;
+    // flex-basis: 0;
+    // flex-wrap: wrap;
+    // width: 50%;
+    padding: $unit-xsm $unit-xsm;
+    @media only screen and (min-width: $bp-sm) {
+    display: inline-block;
+    }
+
+    }
+}
+

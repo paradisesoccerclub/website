@@ -19,6 +19,14 @@
 .type-center {
 	text-align: center;
 }
+.type-link {
+	text-decoration: none;
+	color: $coal;
+	&:hover {
+		color: $gold;
+		transition: color 0.25s ease;
+	}
+}
 
 h2 {
 	font-family: $type-rubik;
