@@ -28,3 +28,8 @@
   ExpiresByType application/javascript    "access plus 1 year"
 
 </IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
