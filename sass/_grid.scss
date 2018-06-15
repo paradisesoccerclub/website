@@ -22,7 +22,7 @@ $screen-lg: 744px;
     flex: 0 1 auto;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 ($unit-xsm * -1) 0 ($unit-xsm * -1);
+    // margin: 0 ($unit-xsm * -1) 0 ($unit-xsm * -1);
     //Use this modifier to remove gutters
     &.grid-nogutter {
         margin: 0;
