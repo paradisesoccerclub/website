@@ -1,34 +1,38 @@
+# Use PHP54 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+
+# Removes HTML from url 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+# Prevent directory listing
+Options -Indexes
+
+# Reduce pages weight by compressing static data
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+
+
 <IfModule mod_expires.c>
-  ExpiresActive on
-
-  ExpiresDefault                          "access plus 1 month"
-
-  ExpiresByType text/xml                  "access plus 0 seconds"
-  ExpiresByType application/xml           "access plus 0 seconds"
-  ExpiresByType application/json          "access plus 0 seconds"
-
-  ExpiresByType image/x-icon              "access plus 1 week"
-
-  ExpiresByType image/gif                 "access plus 1 month"
-  ExpiresByType image/png                 "access plus 1 month"
-  ExpiresByType image/jpeg                "access plus 1 month"
-  ExpiresByType image/jpg                 "access plus 1 month"
-  ExpiresByType video/ogg                 "access plus 1 month"
-  ExpiresByType audio/ogg                 "access plus 1 month"
-  ExpiresByType video/mp4                 "access plus 1 month"
-  ExpiresByType video/webm                "access plus 1 month"
-
-  ExpiresByType application/x-font-ttf    "access plus 1 month"
-  ExpiresByType font/opentype             "access plus 1 month"
-  ExpiresByType application/x-font-woff   "access plus 1 month"
-  ExpiresByType image/svg+xml             "access plus 1 month"
-  ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
-
-  ExpiresByType text/css                  "access plus 1 year"
-  ExpiresByType application/javascript    "access plus 1 year"
-
+# Enable expirations
+ExpiresActive On 
+# Default directive
+ExpiresDefault "access plus 60 days"
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year"
+# Images
+ExpiresByType image/gif "access plus 60 days"
+ExpiresByType image/png "access plus 60 days"
+ExpiresByType image/jpg "access plus 60 days"
+ExpiresByType image/jpeg "access plus 60 days"
+# Video
+ExpiresByType mp4 "access plus 60 days"
+# CSS
+ExpiresByType text/css "access plus 60 days"
+# Javascript
+ExpiresByType application/javascript "access plus 60 days"
 </IfModule>
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
