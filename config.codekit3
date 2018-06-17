@@ -64,6 +64,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -349,6 +356,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/events\/2017-fifa\/2017-fifa-friday-kids.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/events\/events-hero-min.jpg": {
+		"ft": 16384,
+		"iS": 135813,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/events\/events-hero-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
