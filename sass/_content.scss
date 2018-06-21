@@ -50,32 +50,6 @@ img {
 	}
 }
 
-.hero-img-home {
-	background: url(../img/products/2018-rvca/grappler-jacket.jpg);
-}
-
-.hero-img-events {
-	background: url(https://placehold.it/800x400);
-}
-
-.hero-img-about {
-	background: url(../img/about/about-hero.jpg);
-}
-
-.hero-img-teams {
-	background: url(https://placehold.it/800x400);
-}
-
-// Hold to test
-// .hero-img {
-// 	background-size: cover;
-// 	min-height: 200px;
-// 	background-position: center top;
-// 	@media only screen and (min-width: $bp-sm) {
-// 		min-height: 400px;
-// 	}
-// }
-
 .hero-img {
 	margin-bottom: -$unit-xsm;
 	@media only screen and (min-width: $bp-sm+200) {
