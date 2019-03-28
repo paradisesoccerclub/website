@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,1420 +7,1762 @@
 		"uuidString": "E13B952A-3FCE-4203-B797-31D1B5DB9F93"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "29156",
 "files": {
-	"\/.htaccess": {
+	"/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/.htaccess",
+		"oAP": "/.htaccess",
 		"oF": 0
 		},
-	"\/about.html": {
+	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/about.html",
+		"oAP": "/about.html",
 		"oF": 0
 		},
-	"\/assets\/menu.svg": {
+	"/assets/menu.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/menu.svg",
+		"oAP": "/assets/menu.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/og-img.png": {
+	"/assets/og-img.png": {
 		"ft": 32768,
 		"iS": 65315,
 		"oA": 0,
-		"oAP": "\/assets\/og-img.png",
+		"oAP": "/assets/og-img.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/psc-logo.svg": {
+	"/assets/psc-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/psc-logo.svg",
+		"oAP": "/assets/psc-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/square-16.svg": {
+	"/assets/square-16.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/assets\/square-16.svg",
+		"oAP": "/assets/square-16.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/CNAME": {
+	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/CNAME",
+		"oAP": "/CNAME",
 		"oF": 0
 		},
-	"\/css\/main.css": {
+	"/css/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main-min.css",
+		"oAP": "/css/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/events.html": {
+	"/events.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/events.html",
+		"oAP": "/events.html",
 		"oF": 0
 		},
-	"\/favicon.ico": {
+	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/favicon.ico",
+		"oAP": "/favicon.ico",
 		"oF": 0
 		},
-	"\/favicon\/android-chrome-192x192.png": {
+	"/favicon/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 10452,
 		"oA": 0,
-		"oAP": "\/favicon\/android-chrome-192x192.png",
+		"oAP": "/favicon/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/favicon\/android-chrome-256x256.png": {
+	"/favicon/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 15238,
 		"oA": 0,
-		"oAP": "\/favicon\/android-chrome-256x256.png",
+		"oAP": "/favicon/android-chrome-256x256.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/favicon\/apple-touch-icon.png": {
+	"/favicon/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 6463,
 		"oA": 0,
-		"oAP": "\/favicon\/apple-touch-icon.png",
+		"oAP": "/favicon/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/favicon\/browserconfig.xml": {
+	"/favicon/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/favicon\/browserconfig.xml",
+		"oAP": "/favicon/browserconfig.xml",
 		"oF": 0
 		},
-	"\/favicon\/favicon-16x16.png": {
+	"/favicon/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1002,
 		"oA": 0,
-		"oAP": "\/favicon\/favicon-16x16.png",
+		"oAP": "/favicon/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/favicon\/favicon-32x32.png": {
+	"/favicon/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1650,
 		"oA": 0,
-		"oAP": "\/favicon\/favicon-32x32.png",
+		"oAP": "/favicon/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/favicon\/safari-pinned-tab.svg": {
+	"/favicon/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/favicon\/safari-pinned-tab.svg",
+		"oAP": "/favicon/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/favicon\/site.webmanifest": {
+	"/favicon/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/favicon\/site.webmanifest",
+		"oAP": "/favicon/site.webmanifest",
 		"oF": 0
 		},
-	"\/img\/about\/about-grid-1.png": {
+	"/img/about/about-grid-1.png": {
 		"ft": 32768,
 		"iS": 191615,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-grid-1.png",
+		"oAP": "/img/about/about-grid-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/about-grid-2.png": {
+	"/img/about/about-grid-2.png": {
 		"ft": 32768,
 		"iS": 194141,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-grid-2.png",
+		"oAP": "/img/about/about-grid-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/about-grid-3.png": {
+	"/img/about/about-grid-3.png": {
 		"ft": 32768,
 		"iS": 187519,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-grid-3.png",
+		"oAP": "/img/about/about-grid-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/about-grid-4.png": {
+	"/img/about/about-grid-4.png": {
 		"ft": 32768,
 		"iS": 188118,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-grid-4.png",
+		"oAP": "/img/about/about-grid-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/about-grid-5.png": {
+	"/img/about/about-grid-5.png": {
 		"ft": 32768,
 		"iS": 179822,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-grid-5.png",
+		"oAP": "/img/about/about-grid-5.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/about-hero.jpg": {
+	"/img/about/about-hero.jpg": {
 		"ft": 16384,
 		"iS": 94298,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/about\/about-hero.jpg",
+		"oAP": "/img/about/about-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/about\/press-complex.png": {
+	"/img/about/press-complex.png": {
 		"ft": 32768,
 		"iS": 1570,
 		"oA": 0,
-		"oAP": "\/img\/about\/press-complex.png",
+		"oAP": "/img/about/press-complex.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/press-high-snobiety.png": {
+	"/img/about/press-high-snobiety.png": {
 		"ft": 32768,
 		"iS": 2354,
 		"oA": 0,
-		"oAP": "\/img\/about\/press-high-snobiety.png",
+		"oAP": "/img/about/press-high-snobiety.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/about\/press-hypebeast.png": {
+	"/img/about/press-hypebeast.png": {
 		"ft": 32768,
 		"iS": 957,
 		"oA": 0,
-		"oAP": "\/img\/about\/press-hypebeast.png",
+		"oAP": "/img/about/press-hypebeast.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/events\/2017-atp\/atp-1-min.jpg": {
+	"/img/events/2017-atp/atp-1-min.jpg": {
 		"ft": 16384,
 		"iS": 81192,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-atp\/atp-1-min.jpg",
+		"oAP": "/img/events/2017-atp/atp-1-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-atp\/atp-2-min.jpg": {
+	"/img/events/2017-atp/atp-2-min.jpg": {
 		"ft": 16384,
 		"iS": 75158,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-atp\/atp-2-min.jpg",
+		"oAP": "/img/events/2017-atp/atp-2-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-atp\/atp-3-min.jpg": {
+	"/img/events/2017-atp/atp-3-min.jpg": {
 		"ft": 16384,
 		"iS": 80912,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-atp\/atp-3-min.jpg",
+		"oAP": "/img/events/2017-atp/atp-3-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-atp\/atp-4-min.jpg": {
+	"/img/events/2017-atp/atp-4-min.jpg": {
 		"ft": 16384,
 		"iS": 71430,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-atp\/atp-4-min.jpg",
+		"oAP": "/img/events/2017-atp/atp-4-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-atp\/atp-hero.jpg": {
+	"/img/events/2017-atp/atp-hero.jpg": {
 		"ft": 16384,
 		"iS": 130019,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-atp\/atp-hero.jpg",
+		"oAP": "/img/events/2017-atp/atp-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-college-showcase\/2017-college-showcase.jpg": {
+	"/img/events/2017-college-showcase/2017-college-showcase.jpg": {
 		"ft": 16384,
 		"iS": 170284,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-college-showcase\/2017-college-showcase.jpg",
+		"oAP": "/img/events/2017-college-showcase/2017-college-showcase.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-fifa\/2017-fifa-friday-belt.jpg": {
+	"/img/events/2017-fifa/2017-fifa-friday-belt.jpg": {
 		"ft": 16384,
 		"iS": 83023,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-fifa\/2017-fifa-friday-belt.jpg",
+		"oAP": "/img/events/2017-fifa/2017-fifa-friday-belt.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/2017-fifa\/2017-fifa-friday-kids.jpg": {
+	"/img/events/2017-fifa/2017-fifa-friday-kids.jpg": {
 		"ft": 16384,
 		"iS": 67438,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/2017-fifa\/2017-fifa-friday-kids.jpg",
+		"oAP": "/img/events/2017-fifa/2017-fifa-friday-kids.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/events\/events-hero-min.jpg": {
+	"/img/events/2019-02/art-pitch.jpg": {
+		"ft": 16384,
+		"iS": 353428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/events/2019-02/art-pitch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/events/2019-02/pac-rim.jpg": {
+		"ft": 16384,
+		"iS": 304292,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/events/2019-02/pac-rim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/events/events-hero-min.jpg": {
 		"ft": 16384,
 		"iS": 135813,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/events\/events-hero-min.jpg",
+		"oAP": "/img/events/events-hero-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2017-adidas\/adidas-collection-hero.jpg": {
+	"/img/products/2017-adidas/adidas-collection-hero.jpg": {
 		"ft": 16384,
 		"iS": 87196,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2017-adidas\/adidas-collection-hero.jpg",
+		"oAP": "/img/products/2017-adidas/adidas-collection-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2017-pow-wow\/pow-wow-black.jpg": {
+	"/img/products/2017-pow-wow/pow-wow-black.jpg": {
 		"ft": 16384,
 		"iS": 272242,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-black.jpg",
+		"oAP": "/img/products/2017-pow-wow/pow-wow-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2017-pow-wow\/pow-wow-white.jpg": {
+	"/img/products/2017-pow-wow/pow-wow-white.jpg": {
 		"ft": 16384,
 		"iS": 426506,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2017-pow-wow\/pow-wow-white.jpg",
+		"oAP": "/img/products/2017-pow-wow/pow-wow-white.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/products\/2017-worldcup\/2017-worldcup-hero.png": {
+	"/img/products/2017-worldcup/2017-worldcup-hero.png": {
 		"ft": 32768,
 		"iS": 910047,
 		"oA": 0,
-		"oAP": "\/img\/products\/2017-worldcup\/2017-worldcup-hero.png",
+		"oAP": "/img/products/2017-worldcup/2017-worldcup-hero.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-deck.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-deck.jpg": {
 		"ft": 16384,
 		"iS": 39121,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-deck.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-deck.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-hat.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-hat.jpg": {
 		"ft": 16384,
 		"iS": 146204,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-hat.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-hat.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-jersey-featured-collection.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-jersey-featured-collection.jpg": {
 		"ft": 16384,
 		"iS": 45648,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-jersey-featured-collection.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-jersey-featured-collection.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-jersey-featured.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-jersey-featured.jpg": {
 		"ft": 16384,
 		"iS": 142986,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-jersey-featured.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-jersey-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-jersey.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-jersey.jpg": {
 		"ft": 16384,
 		"iS": 92491,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-jersey.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-pin.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-pin.jpg": {
 		"ft": 16384,
 		"iS": 58379,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-pin.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-pin.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-scarf.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-scarf.jpg": {
 		"ft": 16384,
 		"iS": 39443,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-scarf.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-scarf.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-shirt-black.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-shirt-black.jpg": {
 		"ft": 16384,
 		"iS": 59448,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-shirt-black.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-shirt-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-shirt-white.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-shirt-white.jpg": {
 		"ft": 16384,
 		"iS": 60145,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-shirt-white.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-shirt-white.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-aaron-kai\/aaron-kai-short.jpg": {
+	"/img/products/2018-aaron-kai/aaron-kai-short.jpg": {
 		"ft": 16384,
 		"iS": 55221,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-aaron-kai\/aaron-kai-short.jpg",
+		"oAP": "/img/products/2018-aaron-kai/aaron-kai-short.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-away-jersey-featured.jpg": {
+	"/img/products/2018-adidas/2018-reggae-hero.jpg": {
+		"ft": 16384,
+		"iS": 79080,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-adidas/2018-reggae-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-adidas/2018-reggae-jersey.jpg": {
+		"ft": 16384,
+		"iS": 174079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-adidas/2018-reggae-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-blackout/blackout-floral-hero.jpg": {
+		"ft": 16384,
+		"iS": 166650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-blackout/blackout-floral-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-blackout/blackout-floral-jersey.jpg": {
+		"ft": 16384,
+		"iS": 241382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-blackout/blackout-floral-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-brazil/brazil-featured.jpg": {
+		"ft": 16384,
+		"iS": 236759,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-brazil/brazil-featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-brazil/brazil-hero.jpg": {
+		"ft": 16384,
+		"iS": 42162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-brazil/brazil-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-brazil/brazil-jersey.jpg": {
+		"ft": 16384,
+		"iS": 135633,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-brazil/brazil-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-brazil/brazil-shorts.jpg": {
+		"ft": 16384,
+		"iS": 156224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-brazil/brazil-shorts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-kicks-hawaii/2018-kh-away-jersey-featured.jpg": {
 		"ft": 16384,
 		"iS": 230305,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-away-jersey-featured.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-away-jersey-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-away-jersey.jpg": {
+	"/img/products/2018-kicks-hawaii/2018-kh-away-jersey.jpg": {
 		"ft": 16384,
 		"iS": 148535,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-away-jersey.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-away-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-hat.jpg": {
+	"/img/products/2018-kicks-hawaii/2018-kh-hat.jpg": {
 		"ft": 16384,
 		"iS": 112396,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-hat.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-hat.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-hero.jpg": {
+	"/img/products/2018-kicks-hawaii/2018-kh-hero.jpg": {
 		"ft": 16384,
 		"iS": 77364,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-hero.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-home-jersey-featured.jpg": {
+	"/img/products/2018-kicks-hawaii/2018-kh-home-jersey-featured.jpg": {
 		"ft": 16384,
 		"iS": 185258,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-home-jersey-featured.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-home-jersey-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-kicks-hawaii\/2018-kh-home-jersey.jpg": {
+	"/img/products/2018-kicks-hawaii/2018-kh-home-jersey.jpg": {
 		"ft": 16384,
 		"iS": 138283,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-kicks-hawaii\/2018-kh-home-jersey.jpg",
+		"oAP": "/img/products/2018-kicks-hawaii/2018-kh-home-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-murica-2\/murica-jersey-2.0-hero.jpg": {
+	"/img/products/2018-murica-2/murica-jersey-2.0-hero.jpg": {
 		"ft": 16384,
 		"iS": 175102,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-murica-2\/murica-jersey-2.0-hero.jpg",
+		"oAP": "/img/products/2018-murica-2/murica-jersey-2.0-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-murica-2\/murica-jersey-away.jpg": {
+	"/img/products/2018-murica-2/murica-jersey-away.jpg": {
 		"ft": 16384,
 		"iS": 303011,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-murica-2\/murica-jersey-away.jpg",
+		"oAP": "/img/products/2018-murica-2/murica-jersey-away.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-murica-2\/murica-jersey-featured-away.jpg": {
+	"/img/products/2018-murica-2/murica-jersey-featured-away.jpg": {
 		"ft": 16384,
 		"iS": 493169,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-murica-2\/murica-jersey-featured-away.jpg",
+		"oAP": "/img/products/2018-murica-2/murica-jersey-featured-away.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-murica-2\/murica-jersey-home.jpg": {
+	"/img/products/2018-murica-2/murica-jersey-home.jpg": {
 		"ft": 16384,
 		"iS": 307673,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-murica-2\/murica-jersey-home.jpg",
+		"oAP": "/img/products/2018-murica-2/murica-jersey-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/grappler-jacket-2.jpg": {
+	"/img/products/2018-rvca-pineapple/pine-jacket-featured.png": {
+		"ft": 32768,
+		"iS": 2110788,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca-pineapple/pine-jacket-featured.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/products/2018-rvca-pineapple/pine-jacket-hero.png": {
+		"ft": 32768,
+		"iS": 807970,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca-pineapple/pine-jacket-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/products/2018-rvca-pineapple/pine-jacket.png": {
+		"ft": 32768,
+		"iS": 708930,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca-pineapple/pine-jacket.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/products/2018-rvca-pineapple/pine-jersey.png": {
+		"ft": 32768,
+		"iS": 635513,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca-pineapple/pine-jersey.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/products/2018-rvca/atg-camo-short.jpg": {
+		"ft": 16384,
+		"iS": 241781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca/atg-camo-short.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-rvca/grappler-jacket-2.jpg": {
 		"ft": 16384,
 		"iS": 141214,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/grappler-jacket-2.jpg",
+		"oAP": "/img/products/2018-rvca/grappler-jacket-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/grappler-jacket.jpg": {
+	"/img/products/2018-rvca/grappler-jacket.jpg": {
 		"ft": 16384,
 		"iS": 235256,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/grappler-jacket.jpg",
+		"oAP": "/img/products/2018-rvca/grappler-jacket.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/hexstop-2-jacket.png": {
+	"/img/products/2018-rvca/hexstop-2-jacket.png": {
 		"ft": 32768,
 		"iS": 559916,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/hexstop-2-jacket.png",
+		"oAP": "/img/products/2018-rvca/hexstop-2-jacket.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/in-goal-we-trust.png": {
+	"/img/products/2018-rvca/in-goal-we-trust.png": {
 		"ft": 32768,
 		"iS": 574790,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/in-goal-we-trust.png",
+		"oAP": "/img/products/2018-rvca/in-goal-we-trust.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/layers-2-short-gray.png": {
+	"/img/products/2018-rvca/layers-2-short-gray.png": {
 		"ft": 32768,
 		"iS": 588036,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/layers-2-short-gray.png",
+		"oAP": "/img/products/2018-rvca/layers-2-short-gray.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/layers-2-short-red.png": {
+	"/img/products/2018-rvca/layers-2-short-red.png": {
 		"ft": 32768,
 		"iS": 546272,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/layers-2-short-red.png",
+		"oAP": "/img/products/2018-rvca/layers-2-short-red.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/mesh-runner.png": {
+	"/img/products/2018-rvca/mesh-runner.png": {
 		"ft": 32768,
 		"iS": 502415,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/mesh-runner.png",
+		"oAP": "/img/products/2018-rvca/mesh-runner.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/packable-jacket-black.jpg": {
+	"/img/products/2018-rvca/packable-jacket-black.jpg": {
 		"ft": 16384,
 		"iS": 143803,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/packable-jacket-black.jpg",
+		"oAP": "/img/products/2018-rvca/packable-jacket-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/packable-jacket-green.jpg": {
+	"/img/products/2018-rvca/packable-jacket-green.jpg": {
 		"ft": 16384,
 		"iS": 135825,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/packable-jacket-green.jpg",
+		"oAP": "/img/products/2018-rvca/packable-jacket-green.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/rvca-collection-hero.jpg": {
+	"/img/products/2018-rvca/rvca-collection-hero.jpg": {
 		"ft": 16384,
 		"iS": 272187,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/rvca-collection-hero.jpg",
+		"oAP": "/img/products/2018-rvca/rvca-collection-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-rvca\/spectrum-pant.png": {
+	"/img/products/2018-rvca/spectrum-pant.png": {
 		"ft": 32768,
 		"iS": 553878,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-rvca\/spectrum-pant.png",
+		"oAP": "/img/products/2018-rvca/spectrum-pant.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-collection.jpg": {
+	"/img/products/2018-rvca/vent-jersey.jpg": {
+		"ft": 16384,
+		"iS": 360770,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca/vent-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-rvca/vent-long-sleeve-jersey.jpg": {
+		"ft": 16384,
+		"iS": 186088,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2018-rvca/vent-long-sleeve-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2018-team-hawaii/team-hawaii-collection.jpg": {
 		"ft": 16384,
 		"iS": 184272,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-collection.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-collection.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-hat.jpg": {
+	"/img/products/2018-team-hawaii/team-hawaii-hat.jpg": {
 		"ft": 16384,
 		"iS": 102424,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-hat.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-hat.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-iphone-case.jpg": {
+	"/img/products/2018-team-hawaii/team-hawaii-iphone-case.jpg": {
 		"ft": 16384,
 		"iS": 248148,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-iphone-case.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-iphone-case.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-jersey.jpg": {
+	"/img/products/2018-team-hawaii/team-hawaii-jersey.jpg": {
 		"ft": 16384,
 		"iS": 141780,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-jersey.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-scarf.jpg": {
+	"/img/products/2018-team-hawaii/team-hawaii-scarf.jpg": {
 		"ft": 16384,
 		"iS": 114484,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-scarf.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-scarf.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-team-hawaii\/team-hawaii-towel.jpg": {
+	"/img/products/2018-team-hawaii/team-hawaii-towel.jpg": {
 		"ft": 16384,
 		"iS": 119484,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-team-hawaii\/team-hawaii-towel.jpg",
+		"oAP": "/img/products/2018-team-hawaii/team-hawaii-towel.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-away-featured-min.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-away-featured-min.jpg": {
 		"ft": 16384,
 		"iS": 214621,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-away-featured-min.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-away-featured-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-away-jersey-min.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-away-jersey-min.jpg": {
 		"ft": 16384,
 		"iS": 149343,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-away-jersey-min.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-away-jersey-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-camo-away-jersey.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-camo-away-jersey.jpg": {
 		"ft": 16384,
 		"iS": 127314,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-camo-away-jersey.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-camo-away-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-camo-home-featured.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-camo-home-featured.jpg": {
 		"ft": 16384,
 		"iS": 222782,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-camo-home-featured.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-camo-home-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-camo-home-jersey.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-camo-home-jersey.jpg": {
 		"ft": 16384,
 		"iS": 120338,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-camo-home-jersey.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-camo-home-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-hero-min.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-hero-min.jpg": {
 		"ft": 16384,
 		"iS": 120638,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-hero-min.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-hero-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-home-featured-min.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-home-featured-min.jpg": {
 		"ft": 16384,
 		"iS": 311646,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-home-featured-min.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-home-featured-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/2018-world-cup\/2018-world-cup-home-jersey-min.jpg": {
+	"/img/products/2018-world-cup/2018-world-cup-home-jersey-min.jpg": {
 		"ft": 16384,
 		"iS": 148690,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/2018-world-cup\/2018-world-cup-home-jersey-min.jpg",
+		"oAP": "/img/products/2018-world-cup/2018-world-cup-home-jersey-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/accessories\/paradise-hat.jpg": {
+	"/img/products/2019-defer/vent-featured.jpg": {
 		"ft": 16384,
-		"iS": 100537,
+		"iS": 405422,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/accessories\/paradise-hat.jpg",
+		"oAP": "/img/products/2019-defer/vent-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/accessories\/psc-crest-hat.jpg": {
+	"/img/products/2019-defer/vent.jpg": {
 		"ft": 16384,
-		"iS": 99802,
+		"iS": 230512,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/accessories\/psc-crest-hat.jpg",
+		"oAP": "/img/products/2019-defer/vent.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/accessories\/psc-pitch-iphone-min.jpg": {
+	"/img/products/2019-defer/yogger-featured.jpg": {
 		"ft": 16384,
-		"iS": 74258,
+		"iS": 303453,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/accessories\/psc-pitch-iphone-min.jpg",
+		"oAP": "/img/products/2019-defer/yogger-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/accessories\/psc-senda-match-ball.jpg": {
+	"/img/products/2019-defer/yogger.jpg": {
 		"ft": 16384,
-		"iS": 96027,
+		"iS": 262732,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/accessories\/psc-senda-match-ball.jpg",
+		"oAP": "/img/products/2019-defer/yogger.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/adidas-blackout-pant.jpg": {
+	"/img/products/2019-pow-wow/pow-wow-orange-featured.jpg": {
 		"ft": 16384,
-		"iS": 217852,
+		"iS": 317474,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/adidas-blackout-pant.jpg",
+		"oAP": "/img/products/2019-pow-wow/pow-wow-orange-featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-pow-wow/pow-wow-orange-hero.jpg": {
+		"ft": 16384,
+		"iS": 103676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-pow-wow/pow-wow-orange-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-pow-wow/pow-wow-orange-jersey.jpg": {
+		"ft": 16384,
+		"iS": 127250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-pow-wow/pow-wow-orange-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-pow-wow/pow-wow-white-featured.jpg": {
+		"ft": 16384,
+		"iS": 301553,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-pow-wow/pow-wow-white-featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-pow-wow/pow-wow-white-hero.jpg": {
+		"ft": 16384,
+		"iS": 224898,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-pow-wow/pow-wow-white-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-pow-wow/pow-wow-white-jersey.jpg": {
+		"ft": 16384,
+		"iS": 125505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-pow-wow/pow-wow-white-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-spring/spring-featured.jpg": {
+		"ft": 16384,
+		"iS": 517733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-layer-short-black.jpg": {
+	"/img/products/2019-spring/spring-hero.jpg": {
+		"ft": 16384,
+		"iS": 147356,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-spring/spring-jersey.jpg": {
+		"ft": 16384,
+		"iS": 177613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/accessories/paradise-hat.jpg": {
+		"ft": 16384,
+		"iS": 100537,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/accessories/paradise-hat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/accessories/psc-crest-hat.jpg": {
+		"ft": 16384,
+		"iS": 99802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/accessories/psc-crest-hat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/accessories/psc-pitch-iphone-min.jpg": {
+		"ft": 16384,
+		"iS": 74258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/accessories/psc-pitch-iphone-min.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/accessories/psc-senda-match-ball.jpg": {
+		"ft": 16384,
+		"iS": 96027,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/accessories/psc-senda-match-ball.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/bottom/adidas-blackout-pant.jpg": {
+		"ft": 16384,
+		"iS": 217852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/bottom/adidas-blackout-pant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/products/bottom/rvca-layer-short-black.jpg": {
 		"ft": 16384,
 		"iS": 155604,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-layer-short-black.jpg",
+		"oAP": "/img/products/bottom/rvca-layer-short-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-layer-short-heather.jpg": {
+	"/img/products/bottom/rvca-layer-short-heather.jpg": {
 		"ft": 16384,
 		"iS": 204588,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-layer-short-heather.jpg",
+		"oAP": "/img/products/bottom/rvca-layer-short-heather.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-layer-short-heather.png": {
+	"/img/products/bottom/rvca-layer-short-heather.png": {
 		"ft": 32768,
 		"iS": 283025,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-layer-short-heather.png",
+		"oAP": "/img/products/bottom/rvca-layer-short-heather.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-layer-short-red.jpg": {
+	"/img/products/bottom/rvca-layer-short-red.jpg": {
 		"ft": 16384,
 		"iS": 200384,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-layer-short-red.jpg",
+		"oAP": "/img/products/bottom/rvca-layer-short-red.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-spectrum-pant.jpg": {
+	"/img/products/bottom/rvca-spectrum-pant.jpg": {
 		"ft": 16384,
 		"iS": 235097,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-spectrum-pant.jpg",
+		"oAP": "/img/products/bottom/rvca-spectrum-pant.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-sport-short-black.jpg": {
+	"/img/products/bottom/rvca-sport-short-black.jpg": {
 		"ft": 16384,
 		"iS": 169696,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-sport-short-black.jpg",
+		"oAP": "/img/products/bottom/rvca-sport-short-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-yogger-short-black.jpg": {
+	"/img/products/bottom/rvca-yogger-short-black.jpg": {
 		"ft": 16384,
 		"iS": 180426,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-yogger-short-black.jpg",
+		"oAP": "/img/products/bottom/rvca-yogger-short-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/bottom\/rvca-yogger-short-camo.jpg": {
+	"/img/products/bottom/rvca-yogger-short-camo.jpg": {
 		"ft": 16384,
 		"iS": 197173,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/bottom\/rvca-yogger-short-camo.jpg",
+		"oAP": "/img/products/bottom/rvca-yogger-short-camo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/adidas-blackout-jersey.jpg": {
+	"/img/products/jersey/adidas-blackout-jersey.jpg": {
 		"ft": 16384,
 		"iS": 98240,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/adidas-blackout-jersey.jpg",
+		"oAP": "/img/products/jersey/adidas-blackout-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/camo-jersey.jpg": {
+	"/img/products/jersey/camo-jersey.jpg": {
 		"ft": 16384,
 		"iS": 68737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/camo-jersey.jpg",
+		"oAP": "/img/products/jersey/camo-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/cyber-monday-jersey.jpg": {
+	"/img/products/jersey/cyber-monday-jersey.jpg": {
 		"ft": 16384,
 		"iS": 119863,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/cyber-monday-jersey.jpg",
+		"oAP": "/img/products/jersey/cyber-monday-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/merica-jersey.jpg": {
+	"/img/products/jersey/merica-jersey.jpg": {
 		"ft": 16384,
 		"iS": 40393,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/merica-jersey.jpg",
+		"oAP": "/img/products/jersey/merica-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/mes-que-paradise-jersey.jpg": {
+	"/img/products/jersey/mes-que-paradise-jersey.jpg": {
 		"ft": 16384,
 		"iS": 122596,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/mes-que-paradise-jersey.jpg",
+		"oAP": "/img/products/jersey/mes-que-paradise-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/nasa-psc-jersey.jpg": {
+	"/img/products/jersey/nasa-psc-jersey.jpg": {
 		"ft": 16384,
 		"iS": 108611,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/nasa-psc-jersey.jpg",
+		"oAP": "/img/products/jersey/nasa-psc-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/pow-kttp-away-jersey.jpg": {
+	"/img/products/jersey/pow-kttp-away-jersey.jpg": {
 		"ft": 16384,
 		"iS": 140761,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/pow-kttp-away-jersey.jpg",
+		"oAP": "/img/products/jersey/pow-kttp-away-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/pow-kttp-home-jersey.jpg": {
+	"/img/products/jersey/pow-kttp-home-jersey.jpg": {
 		"ft": 16384,
 		"iS": 150340,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/pow-kttp-home-jersey.jpg",
+		"oAP": "/img/products/jersey/pow-kttp-home-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/pow-kttp-jersey-black.jpg": {
+	"/img/products/jersey/pow-kttp-jersey-black.jpg": {
 		"ft": 16384,
 		"iS": 210516,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/pow-kttp-jersey-black.jpg",
+		"oAP": "/img/products/jersey/pow-kttp-jersey-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/pow-kttp-jersey.jpg": {
+	"/img/products/jersey/pow-kttp-jersey.jpg": {
 		"ft": 16384,
 		"iS": 158360,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/pow-kttp-jersey.jpg",
+		"oAP": "/img/products/jersey/pow-kttp-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/rvca-psc-jersey.jpg": {
+	"/img/products/jersey/rvca-psc-jersey.jpg": {
 		"ft": 16384,
 		"iS": 110952,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/rvca-psc-jersey.jpg",
+		"oAP": "/img/products/jersey/rvca-psc-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/sup-usa-red-jersey.jpg": {
+	"/img/products/jersey/sup-usa-red-jersey.jpg": {
 		"ft": 16384,
 		"iS": 108007,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/sup-usa-red-jersey.jpg",
+		"oAP": "/img/products/jersey/sup-usa-red-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/sup-usa-white-jersey.jpg": {
+	"/img/products/jersey/sup-usa-white-jersey.jpg": {
 		"ft": 16384,
 		"iS": 117728,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/sup-usa-white-jersey.jpg",
+		"oAP": "/img/products/jersey/sup-usa-white-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/jersey\/team-hawaii-jersey.jpg": {
+	"/img/products/jersey/team-hawaii-jersey.jpg": {
 		"ft": 16384,
 		"iS": 113888,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/jersey\/team-hawaii-jersey.jpg",
+		"oAP": "/img/products/jersey/team-hawaii-jersey.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/outerwear\/adidas-blackout-jacket.jpg": {
+	"/img/products/outerwear/adidas-blackout-jacket.jpg": {
 		"ft": 16384,
 		"iS": 196171,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/outerwear\/adidas-blackout-jacket.jpg",
+		"oAP": "/img/products/outerwear/adidas-blackout-jacket.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/outerwear\/rvca-hextop-jacket.jpg": {
+	"/img/products/outerwear/rvca-hextop-jacket.jpg": {
 		"ft": 16384,
 		"iS": 225989,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/outerwear\/rvca-hextop-jacket.jpg",
+		"oAP": "/img/products/outerwear/rvca-hextop-jacket.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/outerwear\/rvca-jacket-black.jpg": {
+	"/img/products/outerwear/rvca-jacket-black.jpg": {
 		"ft": 16384,
 		"iS": 156054,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/outerwear\/rvca-jacket-black.jpg",
+		"oAP": "/img/products/outerwear/rvca-jacket-black.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/goal-trust-tee.jpg": {
+	"/img/products/top/goal-trust-tee.jpg": {
 		"ft": 16384,
 		"iS": 133850,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/goal-trust-tee.jpg",
+		"oAP": "/img/products/top/goal-trust-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/paradise-sc-tee.jpg": {
+	"/img/products/top/paradise-sc-tee.jpg": {
 		"ft": 16384,
 		"iS": 112487,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/paradise-sc-tee.jpg",
+		"oAP": "/img/products/top/paradise-sc-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/psc-crest-tee.jpg": {
+	"/img/products/top/psc-crest-tee.jpg": {
 		"ft": 16384,
 		"iS": 116619,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/psc-crest-tee.jpg",
+		"oAP": "/img/products/top/psc-crest-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/red-stitch-black-tee.jpg": {
+	"/img/products/top/red-stitch-black-tee.jpg": {
 		"ft": 16384,
 		"iS": 152450,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/red-stitch-black-tee.jpg",
+		"oAP": "/img/products/top/red-stitch-black-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/red-stitch-white-tee.jpg": {
+	"/img/products/top/red-stitch-white-tee.jpg": {
 		"ft": 16384,
 		"iS": 95494,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/red-stitch-white-tee.jpg",
+		"oAP": "/img/products/top/red-stitch-white-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/runner-mesh-long-tee.jpg": {
+	"/img/products/top/runner-mesh-long-tee.jpg": {
 		"ft": 16384,
 		"iS": 111038,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/runner-mesh-long-tee.jpg",
+		"oAP": "/img/products/top/runner-mesh-long-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/products\/top\/runner-mesh-short-tee.jpg": {
+	"/img/products/top/runner-mesh-short-tee.jpg": {
 		"ft": 16384,
 		"iS": 125652,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/products\/top\/runner-mesh-short-tee.jpg",
+		"oAP": "/img/products/top/runner-mesh-short-tee.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/teams\/hooligans-team-min.jpg": {
+	"/img/teams/hooligans-team-min.jpg": {
 		"ft": 16384,
 		"iS": 320147,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/teams\/hooligans-team-min.jpg",
+		"oAP": "/img/teams/hooligans-team-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/teams\/miso-mens-team-min.jpg": {
+	"/img/teams/miso-mens-team-min.jpg": {
 		"ft": 16384,
 		"iS": 308146,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/teams\/miso-mens-team-min.jpg",
+		"oAP": "/img/teams/miso-mens-team-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/teams\/paradise-futsal-team-min.jpg": {
+	"/img/teams/paradise-futsal-team-min.jpg": {
 		"ft": 16384,
 		"iS": 359533,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/teams\/paradise-futsal-team-min.jpg",
+		"oAP": "/img/teams/paradise-futsal-team-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/teams\/paradise-futsal-youth-team-min.jpg": {
+	"/img/teams/paradise-futsal-youth-team-min.jpg": {
 		"ft": 16384,
 		"iS": 382430,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/teams\/paradise-futsal-youth-team-min.jpg",
+		"oAP": "/img/teams/paradise-futsal-youth-team-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/img\/teams\/team-hero-min.jpg": {
+	"/img/teams/team-hero-min.jpg": {
 		"ft": 16384,
 		"iS": 142175,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/teams\/team-hero-min.jpg",
+		"oAP": "/img/teams/team-hero-min.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/js\/modal-min.js": {
+	"/js/modal-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/modal-min-min.js",
+		"oAP": "/js/modal-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/modal.js": {
+	"/js/modal.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/modal-min.js",
+		"oAP": "/js/modal-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/js\/script-min.js": {
+	"/js/script-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/script-min-min.js",
+		"oAP": "/js/script-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/script.js": {
+	"/js/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/script-min.js",
+		"oAP": "/js/script-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1428,8 +1770,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1438,91 +1781,199 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_button.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_button.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_button.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_button.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_container.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_container.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_container.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_container.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_content.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_content.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_content.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_content.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_grid.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_grid.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_grid.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_mixins.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_mixins.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_mixins.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_modal.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_modal.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_modal.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_modal.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_navigation.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_navigation.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_navigation.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_navigation.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_normalize.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_normalize.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_normalize.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_normalize.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_settings.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_settings.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_settings.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_typography.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_typography.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_typography.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_utility.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_utility.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/_utility.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/_utility.scssc",
 		"oF": 0
 		},
-	"\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/main.scssc": {
+	"/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/main.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/sass\/.sass-cache\/53628785f87adff3d86b238dca286adb27f7e4dd\/main.scssc",
+		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/main.scssc",
 		"oF": 0
 		},
-	"\/sass\/_button.scss": {
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_button.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_button.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_container.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_container.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_content.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_content.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_grid.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_mixins.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_modal.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_modal.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_navigation.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_navigation.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_normalize.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_normalize.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_settings.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_typography.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_utility.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_utility.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/main.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/main.scssc",
+		"oF": 0
+		},
+	"/sass/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1530,12 +1981,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_button.css",
+		"oAP": "/sass/_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_container.scss": {
+	"/sass/_container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1543,12 +1994,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_container.css",
+		"oAP": "/sass/_container.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_content.scss": {
+	"/sass/_content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1556,12 +2007,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_content.css",
+		"oAP": "/sass/_content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_grid.scss": {
+	"/sass/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1569,12 +2020,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_grid.css",
+		"oAP": "/sass/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_mixins.scss": {
+	"/sass/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1582,12 +2033,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_mixins.css",
+		"oAP": "/sass/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_modal.scss": {
+	"/sass/_modal.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1595,12 +2046,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_modal.css",
+		"oAP": "/sass/_modal.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_navigation.scss": {
+	"/sass/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1608,12 +2059,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_navigation.css",
+		"oAP": "/sass/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_normalize.scss": {
+	"/sass/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1621,12 +2072,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_normalize.css",
+		"oAP": "/sass/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_settings.scss": {
+	"/sass/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1634,12 +2085,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_settings.css",
+		"oAP": "/sass/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_typography.scss": {
+	"/sass/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1647,12 +2098,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_typography.css",
+		"oAP": "/sass/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/_utility.scss": {
+	"/sass/_utility.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1660,12 +2111,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/sass\/_utility.css",
+		"oAP": "/sass/_utility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/main.scss": {
+	"/sass/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1673,23 +2124,25 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main.css",
+		"oAP": "/css/main.css",
 		"oF": 2,
 		"oS": 3,
 		"uL": 0
 		},
-	"\/store.html": {
+	"/store.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/store.html",
+		"oAP": "/store.html",
 		"oF": 0
 		},
-	"\/teams.html": {
+	"/teams.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/teams.html",
+		"oAP": "/teams.html",
 		"oF": 0
 		}
 	},
@@ -1701,7 +2154,7 @@
 	"creationDate": 544901923,
 	"displayValue": "paradisesoccerclub",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/favicon\/apple-touch-icon.png",
+	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1709,141 +2162,100 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
 		"inline-environment-variables": {
 			"active": 0
 			},
+		"instanceof": {
+			"active": 0
+			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1855,7 +2267,58 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1867,7 +2330,28 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1897,59 +2381,58 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
 			"active": 0
 			},
+		"remove-undefined": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1958,6 +2441,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2315,6 +2799,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2326,6 +2814,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2371,6 +2863,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2389,10 +2885,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2591,9 +3083,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2843,6 +3339,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -2947,6 +3447,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2975,6 +3479,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2982,6 +3490,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -3037,7 +3549,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3097,7 +3609,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3492,8 +4004,8 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3511,10 +4023,11 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -3537,25 +4050,26 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3576,6 +4090,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3585,7 +4100,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3606,12 +4122,13 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3635,12 +4152,13 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3664,36 +4182,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
-			"active": 0,
+		"arguments": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3701,23 +4253,27 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"booleans_as_integers": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3729,6 +4285,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3736,6 +4296,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -3745,7 +4309,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3753,24 +4325,36 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"if_return": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"indent_level": {
 			"active": 0,
 			"flagValue": 4
 			},
-		"indent-start": {
+		"indent_start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
-			"active": 0,
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -3781,21 +4365,33 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
 			},
 		"properties": {
 			"active": 1,
@@ -3805,12 +4401,24 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
 			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3821,23 +4429,59 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3849,11 +4493,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
