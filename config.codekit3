@@ -1215,6 +1215,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/products/2019-spring/spring-featured.jpg": {
+		"ft": 16384,
+		"iS": 517733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/products/2019-spring/spring-hero.jpg": {
+		"ft": 16384,
+		"iS": 147356,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/products/2019-spring/spring-jersey.jpg": {
+		"ft": 16384,
+		"iS": 177613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/products/2019-spring/spring-jersey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/products/accessories/paradise-hat.jpg": {
 		"ft": 16384,
 		"iS": 100537,
@@ -1842,6 +1875,102 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/sass/.sass-cache/53628785f87adff3d86b238dca286adb27f7e4dd/main.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_button.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_button.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_container.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_container.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_content.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_content.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_grid.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_grid.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_mixins.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_modal.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_modal.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_navigation.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_navigation.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_normalize.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_normalize.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_settings.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_settings.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_typography.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_utility.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/_utility.scssc",
+		"oF": 0
+		},
+	"/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/main.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/sass/.sass-cache/b44810d14225caa3231cc160b6d6e03e773a5803/main.scssc",
 		"oF": 0
 		},
 	"/sass/_button.scss": {
